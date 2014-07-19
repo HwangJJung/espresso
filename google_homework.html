@@ -1,0 +1,541 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko"  xml:lang="ko">
+<meta http-equiv="Content-Type" Content="text/html; charset=utf-8" />
+<HTML>
+	<head>
+		<title>play.google.com</title>
+		<link href='http://fonts.googleapis.com/css?family=Roboto:500,300' rel='stylesheet' type='text/css'>
+		<style>
+		 /* 초기화 */
+			* { margin: 0; padding: 0;}
+			body { font-family: 'Times New Roman' , serif;}
+			li { list-style: none;}
+			a { text-decoration: none;}
+			img { border: 0;}
+		</style>
+		
+		<style type="text/css">
+			#main_header {
+				/*중앙 정렬 */
+				margin: 0 auto;
+				
+				/* 절대 좌표 */
+				height: 60px;
+				position: relative;
+				background-color: #D5D5D5;
+				font-family: 'Roboto', sans-serif;
+				font-weight: 300;
+			}
+			#main_header > #title {
+				position: absolute;
+				left: 20px; bottom:5px;
+			}
+			#main_header > #search {
+				position: absolute;
+				left: 280px; bottom: 5px;
+			}
+
+			#main_header >#main_nb {
+				position: absolute;
+				right: 5px; bottom:  5px;
+			}
+			#main_nb > ul { overflow: hidden; }
+			#main_nb > ul > li { float: left; margin-left: 3px;}
+			
+			#wrap {
+				margin:  0 auto;
+				overflow: hidden;
+				position: relative;
+				background-color: #EAEAEA;
+			}
+			#wrap > #body_container {
+				float: right;
+				width : 100%;
+				margin-right: -300px;
+			}
+			#wrap > #main_side {
+				position: left;
+				width: 300px;
+			}
+			#wrap > footer {
+				float: right;
+				width : 100%;
+				margin-right: -300px;
+			}
+			#wrap > #nav_bar_container {
+				overflow: hidden;
+				background-color: #FFFFFF;
+				height: 50px;
+			}
+			#wrap > #button_bar {
+
+				position: absolute;
+				float: right;
+				right: 5px;
+				width: 200px;
+
+			}
+			#wrap > #button_bar > button {
+					margin-right: 20px;
+			}
+			#wrap > #body_container > ul  {
+				padding-right: 300px;
+
+			}
+			#wrap > footer > #footer_container {
+				padding-right: 300px;
+			}
+			strong,h1,h2,h3,p{
+				font-family: 'Roboto', sans-serif;
+			}
+			h1 {
+				font-weight: 500;
+			}
+			h3 {
+				font-weight: 300;
+			}
+			strong {
+				font-weight: 300;
+			}
+			p{
+				font-weight: 300;
+			}
+			#set_title > button {
+				position: relative;
+				float: right;
+				margin-right: 200px;
+			}
+			.card_container {
+				position: absolute;
+				
+			}
+			.card_container > ul {
+				overflow: hidden;
+			}
+			.card_container > ul > .card {
+				padding : 10px;
+				border : 1px;
+				margin-left:  20px;
+				float: left;
+				
+			}
+			.card_set_container {
+				display: block;
+				width: 800px; height: 300px;
+			}
+			.ad_container {
+				margin-left: 50px;
+				margin-bottom: 50px;
+			}
+			
+		</style>
+
+	</head>
+
+	<body>
+		<header id ="main_header">
+			<hgroup id ="title">
+				<img src="http://placehold.it/200x50" alt="">
+			</hgroup>
+			
+			<span id= "search">
+				<form>
+				<input id="search_bar" type="search" />
+				<input id="search_submit" type="submit"> 검색 </input>
+				</form>
+			</span>
+			
+			<nav id ="main_nb">
+				<ul>
+					<li><a href="#">google+</a></li>
+					<li> <a href="#"><img src="http://placehold.it/30x30" alt="google_menu"></a></li>
+					<li> <a href="#"><img src="http://placehold.it/30x30" alt="notification"></a></li>
+					<li> <a href="#"><img src="http://placehold.it/30x30" alt="share_button"></a></li>
+					<li> <a href="#"><img src="http://placehold.it/30x30" alt="profile"></a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div id="wrap">
+			<div id = "nav_bar_container">
+				<div id ="nav_bar">
+					<ul>
+						<li>
+						</li>
+						<li>
+						</li>
+						<li>	
+						</li>
+						<li>	
+						</li>
+					</ul>
+				</div>
+
+				<div id="button_bar">
+					<button>도움말</button>
+					<button>설정</button>
+				</div>
+			</div>
+			<section id = "body_container">
+				<ul>
+					<li class = "ad_container">
+						<div>
+							<img src="http:placehold.it/800x300" alt="" />
+						</div>
+					</li>
+					<li class = "card_set_container">
+						<section class= "set_title">
+							<h1>재미보장 게임모음</h1>
+							<h2>업데이트 되었습니다!</h2>
+							<button>더보기</button>
+						</section>
+						<div class = "card_container">
+							<ul>
+								<li class = "card">
+									<a href = "#">
+										<div class = "thumnail">
+											<img src="http:placehold.it/100x100">
+										</div>
+										<div class = "description">
+											<strong>윤지수교수님</strong>
+											<p>사랑해요</p>
+										</div>
+									</a>
+								</li>
+								<li class = "card">
+									<a href = "#">
+										<div class = "thumnail">
+											<img src="http:placehold.it/100x100">
+										</div>
+										<div class = "description">
+											<strong>윤지수교수님</strong>
+											<p>사랑해요</p>
+										</div>
+									</a>
+								</li>
+								<li class = "card">
+									<a href = "#">
+										<div class = "thumnail">
+											<img src="http:placehold.it/100x100">
+										</div>
+										<div class = "description">
+											<strong>윤지수교수님</strong>
+											<p>사랑해요</p>
+										</div>
+									</a>
+								</li>
+								<li class = "card">
+									<a href = "#">
+										<div class = "thumnail">
+											<img src="http:placehold.it/100x100">
+										</div>
+										<div class = "description">
+											<strong>윤지수교수님</strong>
+											<p>사랑해요</p>
+										</div>
+									</a>
+								</li>
+								<li class = "card">
+									<a href = "#">
+										<div class = "thumnail">
+											<img src="http:placehold.it/100x100">
+										</div>
+										<div class = "description">
+											<strong>윤지수교수님</strong>
+											<p>사랑해요</p>
+										</div>
+									</a>
+								</li>			
+							</ul>
+						</div>
+					</li>
+					<li class = "card_set_container">
+						<section class= "set_title">
+							<h1>재미보장 게임모음</h1>
+							<h2>업데이트 되었습니다!</h2>
+							<button>더보기</button>
+						</section>
+						<div class = "card_container">
+							<ul>
+								<li class = "card">
+									<a href = "#">
+										<div class = "thumnail">
+											<img src="http:placehold.it/100x100">
+										</div>
+										<div class = "description">
+											<strong>윤지수교수님</strong>
+											<p>사랑해요</p>
+										</div>
+									</a>
+								</li>
+								<li class = "card">
+									<a href = "#">
+										<div class = "thumnail">
+											<img src="http:placehold.it/100x100">
+										</div>
+										<div class = "description">
+											<strong>윤지수교수님</strong>
+											<p>사랑해요</p>
+										</div>
+									</a>
+								</li>
+								<li class = "card">
+									<a href = "#">
+										<div class = "thumnail">
+											<img src="http:placehold.it/100x100">
+										</div>
+										<div class = "description">
+											<strong>윤지수교수님</strong>
+											<p>사랑해요</p>
+										</div>
+									</a>
+								</li>
+								<li class = "card">
+									<a href = "#">
+										<div class = "thumnail">
+											<img src="http:placehold.it/100x100">
+										</div>
+										<div class = "description">
+											<strong>윤지수교수님</strong>
+											<p>사랑해요</p>
+										</div>
+									</a>
+								</li>
+								<li class = "card">
+									<a href = "#">
+										<div class = "thumnail">
+											<img src="http:placehold.it/100x100">
+										</div>
+										<div class = "description">
+											<strong>윤지수교수님</strong>
+											<p>사랑해요</p>
+										</div>
+									</a>
+								</li>			
+							</ul>
+						</div>
+					</li>
+					<li class = "card_set_container">
+						<section class= "set_title">
+							<h1>재미보장 게임모음</h1>
+							<h2>업데이트 되었습니다!</h2>
+							<button>더보기</button>
+						</section>
+						<div class = "card_container">
+							<ul>
+								<li class = "card">
+									<a href = "#">
+										<div class = "thumnail">
+											<img src="http:placehold.it/100x100">
+										</div>
+										<div class = "description">
+											<strong>윤지수교수님</strong>
+											<p>사랑해요</p>
+										</div>
+									</a>
+								</li>
+								<li class = "card">
+									<a href = "#">
+										<div class = "thumnail">
+											<img src="http:placehold.it/100x100">
+										</div>
+										<div class = "description">
+											<strong>윤지수교수님</strong>
+											<p>사랑해요</p>
+										</div>
+									</a>
+								</li>
+								<li class = "card">
+									<a href = "#">
+										<div class = "thumnail">
+											<img src="http:placehold.it/100x100">
+										</div>
+										<div class = "description">
+											<strong>윤지수교수님</strong>
+											<p>사랑해요</p>
+										</div>
+									</a>
+								</li>
+								<li class = "card">
+									<a href = "#">
+										<div class = "thumnail">
+											<img src="http:placehold.it/100x100">
+										</div>
+										<div class = "description">
+											<strong>윤지수교수님</strong>
+											<p>사랑해요</p>
+										</div>
+									</a>
+								</li>
+								<li class = "card">
+									<a href = "#">
+										<div class = "thumnail">
+											<img src="http:placehold.it/100x100">
+										</div>
+										<div class = "description">
+											<strong>윤지수교수님</strong>
+											<p>사랑해요</p>
+										</div>
+									</a>
+								</li>			
+							</ul>
+						</div>
+					</li>
+					<li class = "card_set_container">
+						<section class= "set_title">
+							<h1>재미보장 게임모음</h1>
+							<h2>업데이트 되었습니다!</h2>
+							<button>더보기</button>
+						</section>
+						<div class = "card_container">
+							<ul>
+								<li class = "card">
+									<a href = "#">
+										<div class = "thumnail">
+											<img src="http:placehold.it/100x100">
+										</div>
+										<div class = "description">
+											<strong>윤지수교수님</strong>
+											<p>사랑해요</p>
+										</div>
+									</a>
+								</li>
+								<li class = "card">
+									<a href = "#">
+										<div class = "thumnail">
+											<img src="http:placehold.it/100x100">
+										</div>
+										<div class = "description">
+											<strong>윤지수교수님</strong>
+											<p>사랑해요</p>
+										</div>
+									</a>
+								</li>
+								<li class = "card">
+									<a href = "#">
+										<div class = "thumnail">
+											<img src="http:placehold.it/100x100">
+										</div>
+										<div class = "description">
+											<strong>윤지수교수님</strong>
+											<p>사랑해요</p>
+										</div>
+									</a>
+								</li>
+								<li class = "card">
+									<a href = "#">
+										<div class = "thumnail">
+											<img src="http:placehold.it/100x100">
+										</div>
+										<div class = "description">
+											<strong>윤지수교수님</strong>
+											<p>사랑해요</p>
+										</div>
+									</a>
+								</li>
+								<li class = "card">
+									<a href = "#">
+										<div class = "thumnail">
+											<img src="http:placehold.it/100x100">
+										</div>
+										<div class = "description">
+											<strong>윤지수교수님</strong>
+											<p>사랑해요</p>
+										</div>
+									</a>
+								</li>			
+							</ul>
+						</div>
+					</li>
+				</ul>	
+			</section>
+			<aside id = "main_side">
+				<section class="category_list">
+					<ul>
+						<li>
+							<a href = "#">
+							<div class = "category_icon">
+								<img src="http:placehold.it/50x50">
+							</div>
+							<div class ="category_name">
+								<h3>스토어</h3>
+							</div>
+							</a>
+						</li>
+						<li>
+							<a href = "#">
+							<div class = "category_icon">
+								<img src="http:placehold.it/50x50">
+							</div>
+							<div class ="category_name">
+								<h3>앱</h3>
+							</div>
+							</a>
+						</li>
+						<li>
+							<a href = "#">
+							<div class = "category_icon">
+								<img src="http:placehold.it/50x50">
+							</div>
+							<div class ="category_name">
+								<h3>영화</h3>
+							</div>
+							</a>
+						</li>
+						<li>
+							<a href = "#">
+							<div class = "category_icon">
+								<img src="http:placehold.it/50x50">
+							</div>
+							<div class ="category_name">
+								<h3>도서</h3>
+							</div>
+							</a>
+						</li>
+						<li>
+							<a href = "#">
+							<div class = "category_icon">
+								<img src="http:placehold.it/50x50">
+							</div>
+							<div class ="category_name">
+								<h3></h3>
+							</div>
+							</a>
+						</li>
+					</ul>
+				</section>
+				<section class = "sub_list">
+					<ul>
+						<li><p> 내 게임 활동 </p></li>
+						<li><p> 내 위시 리스트 </p></li>
+						<li><p> 프로모션 코드 사용 </p></li>	
+					</ul>
+				</section>
+			</aside>
+			
+			<footer>	
+				<div id = "footer_container">
+				<section id ="copyright_bar">
+					<p> @2014 google </p>
+					<ul>
+						<a href="#"><li> 사이트 서비스 약관 </li></a>
+						<a href="#"><li> 기기 판매 약관 </li></a>
+						<a href="#"><li>  개인정보 취급 방침</li></a>
+						<a href="#"><li> 개발자  </li></a>
+						
+				</section>
+				<section id = "company_info">
+				<p> 상호명: Google Inc. | 대표자: Eric Schmidt | 주소: 1600 Amphitheatre Parkway, Mountain View, CA 94043, United States | 대표전화: +1 650-253-0000 | 도움말 | 이메일: gpk-usersupport@google.com
+				 </p>
+				 <p>
+				 	구글 플레이에 등록된 앱과 게임은 개발자들이 제공하고 판매하는 것이며, 구글은 개발자가 아닌 이상 등록한 상품 정보 및 거래에 대한 어떠한 책임도 지지 않습니다.
+				 </p>
+				</section>
+				</div>
+			</footer>	
+		</div>
+
+
+	</body>
+</HTML>

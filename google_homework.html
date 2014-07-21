@@ -6,8 +6,10 @@
 	<head>
 		<title>play.google.com</title>
 		<link href='http://fonts.googleapis.com/css?family=Roboto:500,300' rel='stylesheet' type='text/css'>
+                <!-- css는 아예 파일로 분리해서 사용하세요 -->
 		<style>
 		 /* 초기화 */
+                 /* 초기화는 이렇게 필요한 것들을 선언해서 사용합니다. 뭔지 알고 사용해야겠죠? */
 			* { margin: 0; padding: 0;}
 			body { font-family: 'Times New Roman' , serif;}
 			li { list-style: none;}
@@ -135,10 +137,15 @@
 
 	<body>
 		<header id ="main_header">
+
+                <!-- hgroup 같은 경우는 heading들의 그룹이라는 의미라서 img를 감쌀때 사용하는 건 아닌 것 같아요~확인해보세요.
+                    https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hgroup
+                -->
 			<hgroup id ="title">
 				<img src="http://placehold.it/200x50" alt="">
 			</hgroup>
 			
+                        <!-- span 태그를 이렇게 block 단위 느낌으로 사용하는 것보다 '글자의 스타일'을 변경하는 목적으로 사용하는 게 더 좋습니다 -->
 			<span id= "search">
 				<form>
 				<input id="search_bar" type="search" />
@@ -191,6 +198,7 @@
 							<button>더보기</button>
 						</section>
 						<div class = "card_container">
+                                                        <!-- 아래 UL / LI를 잘 사용하신 거 같아요 -->
 							<ul>
 								<li class = "card">
 									<a href = "#">

@@ -1,0 +1,116 @@
+	<style type="text/css">
+			#main_header {
+				/*중앙 정렬 */
+				margin: 0 auto;
+				
+				/* 절대 좌표 */
+				height: 60px;
+				position: relative;
+				background-color: #D5D5D5;
+				font-family: 'Roboto', sans-serif;
+				font-weight: 300;
+			}
+			#main_header > #title {
+				position: absolute;
+				left: 20px; bottom:5px;
+			}
+			#main_header > #search {
+				position: absolute;
+				left: 280px; bottom: 5px;
+			}
+
+			#main_header >#main_nb {
+				position: absolute;
+				right: 5px; bottom:  5px;
+			}
+			#main_nb > ul { overflow: hidden; }
+			#main_nb > ul > li { float: left; margin-left: 3px;}
+			
+			#wrap {
+				margin:  0 auto;
+				overflow: hidden;
+				position: relative;
+				background-color: #EAEAEA;
+			}
+			#wrap > #body_container {
+				float: right;
+				width : 100%;
+				margin-right: -300px;
+			}
+			#wrap > #main_side {
+				position: left;
+				width: 300px;
+			}
+			#wrap > footer {
+				float: right;
+				width : 100%;
+				margin-right: -300px;
+			}
+			#wrap > #nav_bar_container {
+				overflow: hidden;
+				background-color: #FFFFFF;
+				height: 50px;
+			}
+			#wrap > #button_bar {
+
+				position: absolute;
+				float: right;
+				right: 5px;
+				width: 200px;
+
+			}
+			#wrap > #button_bar > button {
+					margin-right: 20px;
+			}
+			#wrap > #body_container > ul  {
+				padding-right: 300px;
+
+			}
+			#wrap > footer > #footer_container {
+				padding-right: 300px;
+			}
+			strong,h1,h2,h3,p{
+				font-family: 'Roboto', sans-serif;
+			}
+			h1 {
+				font-weight: 500;
+			}
+			h3 {
+				font-weight: 300;
+			}
+			strong {
+				font-weight: 300;
+			}
+			p{
+				font-weight: 300;
+			}
+			#set_title > button {
+				position: relative;
+				float: right;
+				margin-right: 200px;
+			}
+			.card_container {
+				position: absolute;
+				
+			}
+			.card_container > ul {
+				overflow: hidden;
+			}
+			.card_container > ul > .card {
+				padding : 10px;
+				border : 1px;
+				margin-left:  20px;
+				float: left;
+				
+			}
+			.card_set_container {
+				display: block;
+				width: 800px; height: 300px;
+			}
+			.ad_container {
+				margin-left: 50px;
+				margin-bottom: 50px;
+				margin-top: 50px;
+			}
+			
+		</style>

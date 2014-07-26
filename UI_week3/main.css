@@ -1,0 +1,179 @@
+
+#main_header {
+	/*중앙 정렬 */
+	margin: 0 auto;
+	
+	/* 절대 좌표 */
+	height: 60px;
+	position: relative;
+	background-color: #D5D5D5;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+#main_header  > #title {
+	position: absolute;
+	left: 20px; bottom:5px;
+}
+#main_header > #search {
+	position: absolute;
+	left: 280px; bottom: 5px;
+}
+
+#main_header > #main_nb {
+	position: absolute;
+	right: 5px; bottom:  5px;
+}
+#main_nb > ul { overflow: hidden; }
+#main_nb > ul > li { float: left; margin-left: 3px;}
+
+#wrap {
+	margin:  0 auto;
+	overflow: hidden;
+	position: relative;
+	background-color: #EAEAEA;
+}
+#wrap > #body_container {
+	float: right;
+	width : 100%;
+	margin-right: -250px;
+}
+#wrap > #main_side {
+	float:  left;
+	position:  fixed;
+	top: 60px;
+	width: 200px;
+	background-color: #F6F6F6;
+	margin-right: 30px;
+	opacity: 0.7;
+
+}
+#wrap > footer {
+	float: right;
+	width : 100%;
+	margin-right: -250px;
+}
+#wrap > #nav_bar_container {
+	overflow: hidden;
+	background-color: #FFFFFF;
+	height: 50px;
+}
+#wrap > #button_bar {
+
+	position: absolute;
+	width: 200px;
+	overflow: hidden;
+
+}
+#wrap > #button_bar > button{
+		float: right;
+		width: 100px;
+		height: 100px;
+		margin-right: 20px;
+		left: 900px;
+}
+#wrap > #body_container > ul  {
+	padding-right: 300px;
+
+}
+#wrap > footer > #footer_container {
+	padding-right: 300px;
+}
+
+strong,h1,h2,h3,p{
+	font-family: 'Roboto', sans-serif;
+}
+h1 {
+	font-weight: 500;
+}
+h3 {
+	font-weight: 300;
+	text-decoration: none;
+}
+strong {
+	font-weight: 300;
+	text-decoration: none;
+}
+p{
+	font-weight: 300;
+}
+.set_title {
+	position: relative;
+}
+
+.set_title > .title_button {	
+	position: absolute;
+	float: right;
+}
+
+.card_container {
+	position: absolute;
+	
+}
+.card_container > ul {
+	overflow: hidden;
+}
+.card_container > ul > .card {
+	margin-right: 20px;
+	float: left;
+	background-color: #FFFFFF;
+	box-shadow: 5px 5px 2px 2px #DBDBDB;
+	width: 132px;
+	height: 200px;
+
+}
+.card_select_area{
+	position: relative;
+}
+
+.cover:hover {
+	color: #CCC;
+	opacity: 0.7;
+}
+.cover {
+	height: 110%;
+	left: -5%;
+	top: -5%;
+	width: 110%;
+}
+
+.thumnail {
+	margin-bottom: 10px;
+	padding: 15px;
+	
+}
+
+
+.card_set_container {
+	display: block;
+	width: 800px; height: 350px;
+}
+.ad_container {
+	margin:  50px;
+	box-shadow: 23px 4px 2px 2px #DBDBDB;
+}
+
+.c1,.c2, .c3 , .c4 , .c5{
+	overflow: hidden;
+	padding: 10px;
+}
+.category_icon {
+	float: left;
+}
+.category_name {
+	float: left;
+	margin-left: 20px;
+}
+
+
+#footer_container {
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+#copyright_bar {
+}
+#copyright_bar > ul {
+	overflow: hidden;
+}
+#copyright_bar > ul >li {
+	float: left; margin-right: 20px;

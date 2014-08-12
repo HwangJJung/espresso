@@ -1,0 +1,129 @@
+ header,
+    .mobile {
+        float: none !important;
+        max-width: 959px;
+        min-width: 320px;
+        width: 100%;
+    }
+    #body_container {
+        float: none !important;
+        max-width: 959px;
+        min-width: 340px;
+    }
+    #main_header,
+    #nav_container,
+    #action_bar { display: none }
+    .mobile {
+        display: block;
+        max-width: 959px;
+        background-color: #e5e5e5;
+        overflow: hidden;
+        position: relative;
+        font-family: "Roboto",Arial,sans-serif;
+        font-size: 13px;
+        font-weight: 300;
+    }
+    #mobile_header_bar {
+        background: #fff;
+        border-bottom: 1px solid #aaa;
+        height: 48px;
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+    .menu_icon_button { left: 5px }
+    .search_icon_button { right: 5px }
+    .menu_icon_button,
+    .menu_icon,
+    .search_icon_button,
+    .search_icon {
+        position: absolute;
+        height: 46px;
+        width: 46px;
+        display: inline-block;
+        top: 0px;
+    }
+    .menu_icon,
+    .search_icon {
+        height: 24px;
+        width: 24px;
+        left: 11px;
+        top: 11px;
+    }
+    .menu_icon,
+    .search_icon,
+    .play_logo,
+    .set_img_container {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .menu_icon { background-image: url('file:./resources/mobile/hamburger.png') }
+    .search_icon { background-image: url('file:./resources/mobile/searchicon.png') }
+    .play_logo {
+        display: inline-block;
+        height: 40px;
+        width: 160px;
+        margin-top: 5px;
+        background-image: url('https://ssl.gstatic.com/android/market_images/web/logo_m_play.png');
+    }
+    .set_container {
+        margin-bottom: 0px;
+        text-align: center;
+        width: 100%;
+    }
+    .set_img_container {
+        height: 255px;
+        float: none;
+    }
+    .browse_page >.set_container:first-child .set_image { margin-left: -18% }
+    .browse_page >.set_container:first-child {
+        margin-left: 0px;
+        max-width: none;
+        min-width: 100%;
+        overflow: hidden;
+        height: 330px;
+        margin-bottom: 20px;
+    }
+    .set_bg .set_img_container {
+        width: 100%;
+        float: none;
+    }
+    .set_typo_container {
+        display: block;
+        margin-left: 0;
+        max-width: none;
+        padding: 7px 0 8px 0;
+        position: relative;
+        width: 335px;
+    }
+    .typo { padding-left: 15px }
+    .set_typo_container > .typo > span:first-child,
+    h1.set_title > .title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .set_typo_container > .typo > span:last-child,
+    h1.set_title > .subtitle {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 2px;
+    }
+    h1.set_title,
+    .card_set { min-width: 340px }
+    h1.set_title {
+        margin: 0px 0px 0px 10px;
+        text-align: left;
+    }
+    .card_set { margin: 17px 10px 21px 10px !important }
+    .empty_card_content { display: none }
+    .square_cover_app_set_has_bg .card_set > ul > .empty_card { display: none }
+    #footer_container {
+        overflow: hidden;
+        min-width: 340px;
+    }
+    #copyright_bar { margin-left: 10px }
+     #copyright_bar > ul > li {
+         float: left;
+         margin-right: 10px;
+     }
+    .sub_footer { margin-left: 10px }

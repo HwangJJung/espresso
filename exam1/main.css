@@ -1,0 +1,1096 @@
+header,
+body,
+h2 {
+    font-family: "Roboto",Arial,sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    color: #333;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+img,
+button { vertical-align: middle }
+header {
+    min-width: 750px;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background: #f1f1f1;
+    line-height: 1.4;
+    max-height: 60px;
+}
+.mobile { display: none }
+#main_header,
+#wrapper {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+#main_header {
+    height: 60px;
+    max-height: 60px;
+    overflow: hidden;
+    display: flex;
+}
+#logo_container,
+#search_bar {
+    float: left;
+    height: 60px;
+}
+#logo_container {
+    max-width: 244px;
+    min-width: 244px;
+    overflow: hidden;
+    width: 20%;
+}
+.logo_a,
+.logo_image { display: inline-block }
+.logo_a { padding: 10px 30px 10px 30px }
+.logo_image {
+    background-image: url('file:./resources/play_logo_x2.png');
+    width: 183px;
+    height: 40px;
+    background-size: 183px 40px;
+    background-repeat: no-repeat;
+}
+#search_bar {
+    width: 90%;
+    max-width: 650px;
+    min-width: 200px;
+}
+#flex_box {
+    position: relative;
+    overflow: hidden;
+    height: 60px;
+}
+.sb_container {
+    background: #fff;
+    width: 100%;
+    height: 28px;
+    border: 1px solid #cdcdcd;
+    border-color: rgba(0,0,0,.15);
+    border-right-width: 0;
+}
+.sb_container:hover { border-color: rgba(0,0,0, .3) }
+.sb_form,
+#text_fieldset,
+#button_fieldset,
+#sb_btn,
+#sb_btn_icon {
+    height: 30px;
+    width: 100%;
+}
+.sb_form {
+    position: absolute;
+    background-color: white;
+    margin-top: 15px;
+    overflow: hidden;
+}
+#text_fieldset,
+#button_fieldset {
+    display: inline-block;
+    position: absolute;
+}
+#text_fieldset,
+#sb_tf_flex {
+    height: 100%;
+    min-width: 270px;
+}
+#text_fieldset {
+    left: 0;
+    width: 92%;
+}
+#sb_tf_ip {
+    height: 100%;
+    width: 100%;
+    padding-left: 7px;
+    text-align: left;
+    line-height: 25px;
+    vertical-align: middle;
+    font-size: 13pt;
+}
+#button_fieldset,
+#sb_btn { width: 60px }
+#button_fieldset { right: 0 }
+#sb_btn {
+    border: 1px solid transparent;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    height: 30px;
+    margin: 0;
+    outline: none;
+    box-shadow: none;
+    background: #4285f4;
+}
+#sb_btn_icon,
+.li_2 > a > div,
+.li_3 > a > div {
+    background-image: url('file:./resources/google_sprite.png');
+    background-size: 112px 1828px;
+}
+#sb_btn_icon {
+    background-position: -69px -349px;
+    display: inline-block;
+    margin: -1px;
+    height: 30px;
+    width: 30px;
+}
+#user_nav_bar {
+    padding-left: 30px;
+    padding-right: 30px;
+    float: right;
+    width: 100%;
+    min-width: 270px;
+    height: 60px;
+}
+ #user_nav_bar > ul {
+     overflow: hidden;
+     margin-top: 15px;
+     max-height: 32px;
+     min-width: 330px;
+ }
+  #user_nav_bar > ul > li {
+      float: right;
+      text-align: center;
+  }
+   #user_nav_bar > ul > li > a {
+       display: block;
+       padding-left: 15px;
+   }
+    #user_nav_bar > ul > li > a  div:hover { opacity: 1 }
+.li_1 > a {
+    margin-top: 3px;
+    text-overflow: ellipsis;
+    width: 60px;
+    height: 24px;
+    max-height: 24px;
+    line-height: 24px;
+    opacity: 1;
+    font-family: Arial;
+    text-align: right;
+}
+.li_1 > a:hover { text-decoration: underline }
+#user_nav_bar > ul > li > a div {
+    height: 30px;
+    width: 30px;
+}
+#user_nav_bar > ul > .li_1 > a > div {
+    text-align: right;
+    width: 100%;
+}
+.li_2 > a > div,
+.li_3 > a > div { opacity: 0.50 }
+.li_2 > a > div { background-position: -51px -452px }
+.li_3 > a > div { background-position: 0 -69px }
+#user_nav_bar > ul > .li_4 > a > div {
+    width: 60px;
+    background-color: #E3E3E3;
+    line-height: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+#user_nav_bar > ul > .li_4 > a > div:hover { background-color: #D1D1D1 }
+.li_5 > a > div {
+    background-image: url('http://lh6.googleusercontent.com/-MbOdjoNn5Ks/AAAAAAAAAAI/AAAAAAAAAAA/8Gufh7esFnQ/s32-c/photo.jpg');
+    background-size: 32px 32px;
+    border-radius: 50%;
+    display: block;
+    height: 32px;
+    width: 32px;
+}
+#action_bar {
+    background-color: #fff;
+    height: 48px;
+    position: relative;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+    z-index: 900;
+}
+#ab_btn_container {
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    height: 100%;
+    width: 375px;
+}
+ #ab_btn_container > div {
+     height: 48px;
+     float: right;
+ }
+  #ab_btn_container > div > button {
+      margin: 0px 10px;
+      padding: 0px;
+      top: 10px;
+      height: 30px;
+      min-width: 40px;
+      line-height: 28px;
+      border: 1px solid rgba(0,0,0,0.17);
+      border-radius: 2px;
+      box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+      box-sizing: border-box;
+      transition: all .2s;
+      background-color: #fff;
+      color: #737373;
+      position: relative;
+  }
+  #ab_btn_container > div > button:hover {
+      box-shadow: 0 1px 0 rgba(0,0,0, 0.3);
+      border: 1px solid rgba(0,0,0,0.4);
+  }
+ #ab_btn_container > div:first-child > button { min-width: 55px }
+.ab_btn_1,
+.ab_btn_2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 21px;
+    margin: 1px 3px 3px 3px;
+    vertical-align: top;
+    width: 21px;
+}
+.ab_btn_1 { background-image: url('file:./resources/question_mark.png') }
+.ab_btn_2 { background-image: url('file:./resources/setting.png') }
+#wrapper {
+    background-color: #e5e5e5;
+    height: 100%;
+    overflow: hidden;
+    clear: both;
+}
+#nav_container {
+    position: absolute;
+    float: left;
+    width: 200px;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+}
+.nav_li {
+    width: 200px;
+    height: 48px;
+    position: relative;
+    background-color: #F2F2F2;
+}
+ .nav_li > a {
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     color: rgb(85, 85, 85);
+ }
+.nav_icon {
+    height: 48px;
+    width: 65px;
+    float: left;
+}
+ .nav_icon > span {
+     display: block;
+     height: 24px;
+     margin: 12px 0 0 28px;
+     width: 24px;
+ }
+.nav_category {
+    width: 128px;
+    float: left;
+    left: 65px;
+    font-size: 13.5pt;
+    height: 48px;
+    line-height: 48px;
+    vertical-align: middle;
+    padding-left: 7px;
+}
+.nav_category:hover {
+    color: #fff;
+    transition: all .2s;
+}
+#nav_icon_store > span { background-image: url('file:./resources/store.png') }
+#nav_store { background-color: rgb(68, 68, 68) }
+ #nav_store > a { color: #fff }
+#nav_icon_app > span { background-image: url('file:./resources/android.png') }
+#nav_icon_app { background-color: rgb(179, 200, 51) }
+#nav_category_app:hover { background-color: rgb(179, 200, 51) }
+#nav_icon_movie > span { background-image: url('file:./resources/movie.png') }
+#nav_icon_movie { background-color: #ce5043 }
+#nav_category_movie:hover { background-color: #ce5043 }
+#nav_icon_book > span { background-image: url('file:./resources/book.png') }
+#nav_icon_book { background-color: #1aa1e1 }
+#nav_category_book:hover { background-color: #1aa1e1 }
+#nav_icon_device > span { background-image: url('file:./resources/device.png') }
+#nav_icon_device { background-color: #658092 }
+#nav_category_device:hover { background-color: #658092 }
+.sub_nav {
+    top: 240px;
+    background: rgba(238,238,238,0.95);
+    border-top: 1px solid rgba(217,217,217,1);
+    padding-bottom: 10px;
+    padding-top: 9px;
+    width: 200px;
+}
+ .sub_nav ul li a { width: 100% }
+ .sub_nav > ul { height: 100% }
+  .sub_nav > ul > li {
+      display: block;
+      line-height: 18px;
+      height: 30px;
+  }
+   .sub_nav > ul > li > a {
+       display: block;
+       box-sizing: border-box;
+       font-size: 14px;
+       font-weight: 400;
+       vertical-align: middle;
+       padding: 6px 12px 6px 30px;
+   }
+   .sub_nav > ul > li > a:hover {
+       background-color: #D5D5D5;
+       transition: all .2s;
+   }
+#body_container {
+    position: relative;
+    float: right;
+    width: 100%;
+    min-width: 300px;
+    min-height: 100%;
+}
+.browse_page .set_container .set_bg {
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    height: 290px;
+}
+.set_container {
+    text-align: left;
+    color: #333333;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.set_bg .set_img_container .set_image {
+    display: inline-block;
+    position: relative;
+    height: 370px;
+    min-height: 265px;
+    margin-top: -30px;
+    max-width: 600px;
+}
+.set_img_container,
+.set_typo_container {
+    display: inline-block;
+    height: 100%;
+    max-width: 453px;
+}
+.set_img_container {
+    float: left;
+    min-width: 335px;
+    top: 0;
+    width: 90%;
+}
+.browse_page >.set_container:first-child {
+    margin-top: 40px;
+    background-color: #ffffff;
+    border-radius: 2px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    height: 255px;
+    margin: 40px 10px 0px 248px;
+    max-width: 1010px;
+    min-width: 670px;
+    width: 60%;
+    position: relative;
+    text-align: center;
+}
+ .browse_page >.set_container:first-child > .set_img_container { position: relative }
+  .browse_page >.set_container:first-child > .set_img_container .set_image {
+      width: 453px;
+      height: 255px;
+  }
+.set_typo_container {
+    min-width: 300px;
+    max-width: 410px;
+    overflow: hidden;
+    padding: 0 0 0 5%;
+    width: 40%;
+    margin-left: 50%;
+    display: table;
+    position: absolute;
+}
+.typo {
+    display: table-cell;
+    width: 100%;
+    text-align: left;
+    vertical-align: middle;
+}
+.set_typo_container > .typo > span:first-child {
+    display: block;
+    font-size: 42px;
+    font-weight: 100;
+    line-height: 46px;
+}
+.set_typo_container > .typo > span:last-child {
+    display: block;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 10px;
+}
+.card_target {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.square_cover_app_set,
+.square_cover_app_set_has_bg {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.square_cover_app_set_has_bg { height: 380px }
+.square_cover_app_set {
+    height: 330px;
+    margin: 5px 0px 15px 0px;
+}
+h1.set_title {
+    overflow: hidden;
+    display: relative;
+    min-height: 37px;
+    min-width: 680px;
+    margin: 0px 50px 0px 248px;
+    padding: 5px;
+}
+.set_title > .title {
+    font-weight: 100;
+    font-size: 21pt;
+}
+.set_title > .more_button_app,
+.more_button_movie {
+    line-height: 30px;
+    margin-top: 20px;
+    margin-right: 10px;
+    float: right;
+    border: 1px;
+    height: 30px;
+    padding: 0 13px;
+    color: #fff;
+    display: inline-block;
+    transition: all .2s;
+    box-sizing: border-box;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+    border-radius: 2px;
+    font-size: 14px;
+}
+.more_button_app:hover,
+.more_button_movie:hover { box-shadow: inset 0 -2px 0 rgba(0,0,0,0.27) }
+.more_button_app { background-color: #b3c833 }
+.more_button_app:hover { background-color: #c1d739 }
+.more_button_movie { background-color: #ce5043 }
+.more_button_movie:hover { background-color: #e45a4e }
+.set_title > .subtitle {
+    display: block;
+    font-size: 16px;
+    font-weight: 100;
+    padding-bottom: 4px;
+}
+.card_set {
+    max-height: 340px;
+    min-width: 680px;
+    position: relative;
+    margin-left: 248px;
+}
+.square_cover_app_set_has_bg .card_set { margin: 17px 15px 21px 248px }
+.card_set .app_card_list { height: 255px }
+.card_set .movie_card_list { height: 340px }
+.card_set > ul {
+    overflow: hidden;
+    height: 100%;
+}
+.card_set > .app_card_list > li {
+    height: 245px;
+    width: 160px;
+}
+.card_set > .movie_card_list > li {
+    height: 330px;
+    width: 160px;
+}
+.square_cover_app_set_has_bg .card_set > ul > .empty_card {
+    width: 330px;
+    height: 670px;
+}
+.empty_card_content {
+    height: 255px;
+    width: 330px;
+}
+.card,
+.empty_card {
+    display: inline-block;
+    margin: 5px;
+    float: left;
+    text-align: left;
+    vertical-align: top;
+    position: relative;
+}
+ .card a:hover { text-decoration: underline }
+.card_content {
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background: #fff;
+    height: 100%;
+    position: relative;
+    text-decoration: none;
+    vertical-align: top;
+}
+.thumnail {
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+.app_card_list .thumnail {
+    height: 160px;
+    width: 160px;
+}
+.movie_card_list .thumnail {
+    height: 245px;
+    width: 160px;
+}
+.thumnail_holder {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.thumnail_content {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.thumnail_image {
+    max-width: 80%;
+    text-align: center;
+    vertical-align: middle;
+}
+.movie_card_list .thumnail_image {
+    max-height: 257px;
+    max-width: 170px;
+}
+.card .thumnail > .card_target:hover {
+    background-color: #333;
+    opacity: 0.7;
+    transition: all .25s ease;
+    border-radius: 2px;
+}
+.card .details {
+    box-sizing: border-box;
+    display: block;
+    overflow: hidden;
+    padding: 7px 10px 0;
+    position: relative;
+    max-height: 50px;
+}
+.card .title {
+    color: #333;
+    display: block;
+    font-size: 16px;
+    line-height: 18px;
+    max-height: 36px;
+    min-height: 18px;
+    overflow: hidden;
+    text-decoration: none;
+    position: relative;
+    white-space: nowrap;
+}
+.card .subtitle_container {
+    min-height: 22px;
+    position: relative;
+    width: 100%;
+}
+.card .subtitle {
+    display: block;
+    color: #aaa;
+    font-size: 13px;
+    line-height: 16px;
+    margin: 1px 0;
+    width: 140px;
+    max-width: 132px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.card .star_and_price {
+    max-height: 38px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    background: #fff;
+    bottom: 0;
+    display: block;
+    padding: 0 10px;
+    position: absolute;
+    width: 100%;
+}
+.card .star_price_container {
+    position: relative;
+    width: 100%;
+    vertical-align: top;
+    white-space: nowrap;
+}
+.card .star_content {
+    height: 24px;
+    margin-top: 5px;
+}
+.card .star_bg {
+    background: url(file:./resources/star.png);
+    height: 14px;
+    width: 69px;
+    position: relative;
+}
+.card .star_rating {
+    background: url(file:./resources/star_rating.png);
+    height: 14px;
+    position: absolute;
+}
+.card .price_container {
+    display: inline-block;
+    bottom: 7px;
+    position: absolute;
+    right: 0;
+    text-align: left;
+}
+.card .price_button,
+.price_button_movie {
+    background: #fff;
+    cursor: pointer;
+    display: inline-block;
+    padding-left: 2px;
+    position: relative;
+}
+ .card .price_button span,
+ .card .price_button_movie span {
+     font-size: 13px;
+     font-weight: 400;
+     line-height: 17px;
+     text-align: right;
+ }
+ .card .price_button span { color: #b3c833 }
+.card .price_button_movie span { color: #ce5043 }
+footer {
+    background: #e5e5e5;
+    color: #555;
+    font-weight: 400;
+    padding-bottom: 30px;
+    width: 100%;
+    display: block;
+}
+#footer_container {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    min-width: 900px;
+}
+#copyright_bar {
+    margin-left: 248px;
+    padding: 28px 5px 10px 5px;
+}
+ #copyright_bar > ul { overflow: hidden }
+  #copyright_bar > ul > li {
+      float: left;
+      margin-right: 20px;
+  }
+.sub_footer { margin-left: 248px }
+@media screen and (max-width: 339px) { 
+    header,
+    .mobile {
+        float: none !important;
+        max-width: 959px;
+        min-width: 320px;
+        width: 100%;
+    }
+    #body_container {
+        float: none !important;
+        max-width: 959px;
+        min-width: 340px;
+    }
+    #main_header,
+    #nav_container,
+    #action_bar { display: none }
+    .mobile {
+        display: block;
+        max-width: 959px;
+        background-color: #e5e5e5;
+        overflow: hidden;
+        position: relative;
+        font-family: "Roboto",Arial,sans-serif;
+        font-size: 13px;
+        font-weight: 300;
+    }
+    #mobile_header_bar {
+        background: #fff;
+        border-bottom: 1px solid #aaa;
+        height: 48px;
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+    .menu_icon_button { left: 5px }
+    .search_icon_button { right: 5px }
+    .menu_icon_button,
+    .menu_icon,
+    .search_icon_button,
+    .search_icon {
+        position: absolute;
+        height: 46px;
+        width: 46px;
+        display: inline-block;
+        top: 0px;
+    }
+    .menu_icon,
+    .search_icon {
+        height: 24px;
+        width: 24px;
+        left: 11px;
+        top: 11px;
+    }
+    .menu_icon,
+    .search_icon,
+    .play_logo,
+    .set_img_container {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .menu_icon { background-image: url('file:./resources/mobile/hamburger.png') }
+    .search_icon { background-image: url('file:./resources/mobile/searchicon.png') }
+    .play_logo {
+        display: inline-block;
+        height: 40px;
+        width: 160px;
+        margin-top: 5px;
+        background-image: url('https://ssl.gstatic.com/android/market_images/web/logo_m_play.png');
+    }
+    .set_container {
+        margin-bottom: 0px;
+        text-align: center;
+        width: 100%;
+    }
+    .set_img_container {
+        height: 255px;
+        float: none;
+    }
+    .browse_page >.set_container:first-child .set_image { margin-left: -18% }
+    .browse_page >.set_container:first-child {
+        margin-left: 0px;
+        max-width: none;
+        min-width: 100%;
+        overflow: hidden;
+        height: 330px;
+        margin-bottom: 20px;
+    }
+    .set_bg .set_img_container {
+        width: 100%;
+        float: none;
+    }
+    .set_typo_container {
+        display: block;
+        margin-left: 0;
+        max-width: none;
+        padding: 7px 0 8px 0;
+        position: relative;
+        width: 335px;
+    }
+    .typo { padding-left: 15px }
+    .set_typo_container > .typo > span:first-child,
+    h1.set_title > .title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .set_typo_container > .typo > span:last-child,
+    h1.set_title > .subtitle {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 2px;
+    }
+    h1.set_title,
+    .card_set { min-width: 340px }
+    h1.set_title {
+        margin: 0px 0px 0px 10px;
+        text-align: left;
+    }
+    .card_set { margin: 17px 10px 21px 10px !important }
+    .empty_card_content { display: none }
+    .square_cover_app_set_has_bg .card_set > ul > .empty_card { display: none }
+    #footer_container {
+        overflow: hidden;
+        min-width: 340px;
+    }
+    #copyright_bar { margin-left: 10px }
+     #copyright_bar > ul > li {
+         float: left;
+         margin-right: 10px;
+     }
+    .sub_footer { margin-left: 10px }
+    html body { width: 108% }
+    html .mobile { max-width: 0% }
+    html #wrapper { min-width: 330px !important }
+}
+@media screen and (max-width: 459px) and (min-width: 340px) { 
+    header,
+    .mobile {
+        float: none !important;
+        max-width: 959px;
+        min-width: 320px;
+        width: 100%;
+    }
+    #body_container {
+        float: none !important;
+        max-width: 959px;
+        min-width: 340px;
+    }
+    #main_header,
+    #nav_container,
+    #action_bar { display: none }
+    .mobile {
+        display: block;
+        max-width: 959px;
+        background-color: #e5e5e5;
+        overflow: hidden;
+        position: relative;
+        font-family: "Roboto",Arial,sans-serif;
+        font-size: 13px;
+        font-weight: 300;
+    }
+    #mobile_header_bar {
+        background: #fff;
+        border-bottom: 1px solid #aaa;
+        height: 48px;
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+    .menu_icon_button { left: 5px }
+    .search_icon_button { right: 5px }
+    .menu_icon_button,
+    .menu_icon,
+    .search_icon_button,
+    .search_icon {
+        position: absolute;
+        height: 46px;
+        width: 46px;
+        display: inline-block;
+        top: 0px;
+    }
+    .menu_icon,
+    .search_icon {
+        height: 24px;
+        width: 24px;
+        left: 11px;
+        top: 11px;
+    }
+    .menu_icon,
+    .search_icon,
+    .play_logo,
+    .set_img_container {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .menu_icon { background-image: url('file:./resources/mobile/hamburger.png') }
+    .search_icon { background-image: url('file:./resources/mobile/searchicon.png') }
+    .play_logo {
+        display: inline-block;
+        height: 40px;
+        width: 160px;
+        margin-top: 5px;
+        background-image: url('https://ssl.gstatic.com/android/market_images/web/logo_m_play.png');
+    }
+    .set_container {
+        margin-bottom: 0px;
+        text-align: center;
+        width: 100%;
+    }
+    .set_img_container {
+        height: 255px;
+        float: none;
+    }
+    .browse_page >.set_container:first-child .set_image { margin-left: -18% }
+    .browse_page >.set_container:first-child {
+        margin-left: 0px;
+        max-width: none;
+        min-width: 100%;
+        overflow: hidden;
+        height: 330px;
+        margin-bottom: 20px;
+    }
+    .set_bg .set_img_container {
+        width: 100%;
+        float: none;
+    }
+    .set_typo_container {
+        display: block;
+        margin-left: 0;
+        max-width: none;
+        padding: 7px 0 8px 0;
+        position: relative;
+        width: 335px;
+    }
+    .typo { padding-left: 15px }
+    .set_typo_container > .typo > span:first-child,
+    h1.set_title > .title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .set_typo_container > .typo > span:last-child,
+    h1.set_title > .subtitle {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 2px;
+    }
+    h1.set_title,
+    .card_set { min-width: 340px }
+    h1.set_title {
+        margin: 0px 0px 0px 10px;
+        text-align: left;
+    }
+    .card_set { margin: 17px 10px 21px 10px !important }
+    .empty_card_content { display: none }
+    .square_cover_app_set_has_bg .card_set > ul > .empty_card { display: none }
+    #footer_container {
+        overflow: hidden;
+        min-width: 340px;
+    }
+    #copyright_bar { margin-left: 10px }
+     #copyright_bar > ul > li {
+         float: left;
+         margin-right: 10px;
+     }
+    .sub_footer { margin-left: 10px }
+    #wrapper { min-width: 340px }
+}
+@media screen and (max-width: 959px) and (min-width: 460px) { 
+    header,
+    .mobile {
+        float: none !important;
+        max-width: 959px;
+        min-width: 320px;
+        width: 100%;
+    }
+    #body_container {
+        float: none !important;
+        max-width: 959px;
+        min-width: 340px;
+    }
+    #main_header,
+    #nav_container,
+    #action_bar { display: none }
+    .mobile {
+        display: block;
+        max-width: 959px;
+        background-color: #e5e5e5;
+        overflow: hidden;
+        position: relative;
+        font-family: "Roboto",Arial,sans-serif;
+        font-size: 13px;
+        font-weight: 300;
+    }
+    #mobile_header_bar {
+        background: #fff;
+        border-bottom: 1px solid #aaa;
+        height: 48px;
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+    .menu_icon_button { left: 5px }
+    .search_icon_button { right: 5px }
+    .menu_icon_button,
+    .menu_icon,
+    .search_icon_button,
+    .search_icon {
+        position: absolute;
+        height: 46px;
+        width: 46px;
+        display: inline-block;
+        top: 0px;
+    }
+    .menu_icon,
+    .search_icon {
+        height: 24px;
+        width: 24px;
+        left: 11px;
+        top: 11px;
+    }
+    .menu_icon,
+    .search_icon,
+    .play_logo,
+    .set_img_container {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .menu_icon { background-image: url('file:./resources/mobile/hamburger.png') }
+    .search_icon { background-image: url('file:./resources/mobile/searchicon.png') }
+    .play_logo {
+        display: inline-block;
+        height: 40px;
+        width: 160px;
+        margin-top: 5px;
+        background-image: url('https://ssl.gstatic.com/android/market_images/web/logo_m_play.png');
+    }
+    .set_container {
+        margin-bottom: 0px;
+        text-align: center;
+        width: 100%;
+    }
+    .set_img_container {
+        height: 255px;
+        float: none;
+    }
+    .browse_page >.set_container:first-child .set_image { margin-left: -18% }
+    .browse_page >.set_container:first-child {
+        margin-left: 0px;
+        max-width: none;
+        min-width: 100%;
+        overflow: hidden;
+        height: 330px;
+        margin-bottom: 20px;
+    }
+    .set_bg .set_img_container {
+        width: 100%;
+        float: none;
+    }
+    .set_typo_container {
+        display: block;
+        margin-left: 0;
+        max-width: none;
+        padding: 7px 0 8px 0;
+        position: relative;
+        width: 335px;
+    }
+    .typo { padding-left: 15px }
+    .set_typo_container > .typo > span:first-child,
+    h1.set_title > .title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .set_typo_container > .typo > span:last-child,
+    h1.set_title > .subtitle {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 2px;
+    }
+    h1.set_title,
+    .card_set { min-width: 340px }
+    h1.set_title {
+        margin: 0px 0px 0px 10px;
+        text-align: left;
+    }
+    .card_set { margin: 17px 10px 21px 10px !important }
+    .empty_card_content { display: none }
+    .square_cover_app_set_has_bg .card_set > ul > .empty_card { display: none }
+    #footer_container {
+        overflow: hidden;
+        min-width: 340px;
+    }
+    #copyright_bar { margin-left: 10px }
+     #copyright_bar > ul > li {
+         float: left;
+         margin-right: 10px;
+     }
+    .sub_footer { margin-left: 10px }
+    #wrapper { min-width: 460px }
+    .browse_page >.set_container:first-child > .set_img_container > .set_image { margin-left: 0px }
+}
+@media screen and (min-width: 960px) { 
+    #wrapper { min-width: 960px }
+}

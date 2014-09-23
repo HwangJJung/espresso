@@ -1,0 +1,34 @@
+
+<HTML>
+<body>
+
+<div id ="a"></div>
+
+
+<script>
+
+
+window.onload = StartAjax ();
+
+	function StartAjax () {
+	var URL = 'http://hwangjjung.com/exam1/bookdata.json';
+	var request = new XMLHttpRequest();
+	request.onreadystatechange = function (event) {
+		if (request.readyState == 4 && request.status == 200) {
+			result = request.responseText;
+			result = JSON.parse(result);
+			console.log(result.books);
+			var el = document.createElement('div');
+			el.id = 'b';
+			el.innerHTML = result.books;
+			var ela = document.getElementById('a');
+
+			ela.appendChild(el);
+		}
+	};
+	request.open('GET' , URL , true);
+	request.send();
+}
+</script>
+</body>
+</HTML>

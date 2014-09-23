@@ -1,9 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
+
 <html xmlns="http://www.w3.org/1999/xhtml"
 lang="ko" xml:lang="ko">
-<meta http-equiv="Content-Type" Content="text/html; charset=utf-8"
-/>
+<meta charset="utf-8"/>
+
 <HTML>
 
 <head>
@@ -13,10 +13,10 @@ lang="ko" xml:lang="ko">
 	<link href='http://fonts.googleapis.com/css?family=Roboto:500,300,100'
 	rel='stylesheet' type='text/css'>
 
-	<link href='./default.css'
+	<link href='http://hwangjjung.com/exam1/default.css'
 	rel='stylesheet' type='text/css'>
 
-	<link href='file:./main.css'
+	<link href='./main.css'
 	rel='stylesheet' type='text/css'>
 
 </head>
@@ -26,7 +26,7 @@ lang="ko" xml:lang="ko">
 			<div id="main_header">
 				<div id="logo_container">
 					<a class="logo_a" href="#">
-						<div class="logo_image" tittle="google play">
+						<div class="logo_image" title="google play">
 						</div>
 					</a>
 				</div>
@@ -52,45 +52,75 @@ lang="ko" xml:lang="ko">
 				<div id="user_nav_bar">
 					<ul>
 						<li class="li_5">
-							<a href="">
+							
 								<div></div>
-							</a>
+							
 						</li>
 						<li class="li_4">
-							<a href="">
+							
 								<div>공유</div>
-							</a>
+							
 						</li>
 						<li class="li_3">
-							<a href="">
+							
 								<div></div>
-							</a>
+							
 						</li>
-						<li class="li_2">
-							<a href="">
-								<div></div>
-							</a>
+						<li class="li_2" >
+							
+								<div id = 'google_menu_btn'>
+								</div>
+								
+							
 						</li>
 						<li class="li_1">
-							<a href="">
+							
 								<div>+Jeong</div>
-							</a>
+							
 						</li>
 					</ul>
+
 				</div>
 			</div>
+
+			<span id='google_menu' style ='display: none;'>
+				<div id="google_icn_container">
+					<ul id="google_ul">
+						<li class= "google_icn_li" >
+							<div draggable = 'true'  class="dragtarget">1</div></li>
+						<li class= "google_icn_li">
+							<div draggable = 'true'  class="dragtarget">2</div></li>
+						<li class= "google_icn_li">
+							<div draggable = 'true'  class="dragtarget">3</div></li>
+						<li class= "google_icn_li">
+							<div  draggable = 'true' class="dragtarget">4</div></li>
+						<li class= "google_icn_li">
+							<div draggable = 'true'  class="dragtarget">5</div></li>
+						<li class= "google_icn_li">
+							<div draggable = 'true' class="dragtarget">6</div></li>
+						<li class= "google_icn_li">
+							<div draggable = 'true' class="dragtarget">7</div></li>
+						<li class= "google_icn_li">
+							<div draggable = 'true' class="dragtarget">8</div></li>
+						<li class= "google_icn_li">
+							<div draggable = 'true' class="dragtarget">9</div></li>
+					</ul>
+					
+				</div>			
+			</span>
 		</div>
 		<div class="mobile">
 			<header id="mobile_header_bar">
 				<span class="menu_icon_button">
 				<span class="menu_icon"></span>
 				</span>
-				<a class="play_logo" href="/store"></a>
+				<span class="logo_image" href="#"></span>
 				<span class="search_icon_button"> 
 				<span class="search_icon"></span>
 				</span>
 			</header>
 		</div>
+
 	</header>
 
 	<div id="wrapper">
@@ -104,6 +134,25 @@ lang="ko" xml:lang="ko">
 					<button><span class="ab_btn_1"></span>
 					</button>
 				</div>
+			</div>
+			<div id ="text_btn_container">
+				<div>
+				<button id ="genre_btn">장르 ⋁ </button>
+				</div>
+			</div>
+			<div id="drop_down_menu" style="display: none">
+				<ul  id = "genre_ul">
+					<li class = "genre_li">이것을 클릭!</li>
+					<li class = "genre_li">영화카드들이</li>
+					<li class = "genre_li">책 카드들로 바뀝니다.</li>
+					<li class = "genre_li">교수님</li>
+					<li class = "genre_li">안녕</li>
+					<li class = "genre_li">하세요</li>
+					<li class = "genre_li">하하하</li>
+					<li class = "genre_li">라라라</li>
+					<li class = "genre_li">나나나</li>
+					<li class = "genre_li"></li>
+				</ul>
 			</div>
 		</div>
 		<div id="nav_container">
@@ -164,9 +213,434 @@ lang="ko" xml:lang="ko">
 						<a class="card_target" href="#"></a>
 				</div>
 				<div class="set_container">
+					<div class="square_cover_movie_set">
+						<h1 class="set_title">
+						<a class = "title" href="#">여름 메가 세일: 영화</a>
+						<a class = "more_button_movie" href="#">더보기</a>
+						<a class = "subtitle" href="#">다양한 장르 최고 50%까지 할인</a>
+					</h1>
+						<div class="card_set" id="movie_set_1">
+							<ul class="movie_card_list" id="movie_ul_1">
+								<li class="card">
+									<div class="card_content">
+										<a class="card_target" href="#"></a>
+										<div class="thumnail">
+											<a class="card_target" href="#"></a>
+											<div class="thumnail_holder">
+												<span class="thumnail_content">
+												<img class="thumnail_image" src="https://lh5.ggpht.com/QEJTcvzEJwxib1bczgpBTcUW0CabfOZxFB-lCBfjGcSWqYfMjb9pxX67hdppLkbXqv8R=w170-rw" alt="어바웃 타임" />
+											</span>
+											</div>
+										</div>
+										<div class="details">
+											<a class="card_target" href="#"></a>
+											<h2>
+											<a class="title" href="#">어바웃 타임</a>
+										</h2>
+											<div class="subtitle_container">
+												<a class="subtitle" href="#">멜로</a>
+											</div>
+										</div>
+
+										<div class="star_and_price">
+											<a class="card_target" href="#"></a>
+											<div class="star_price_container">
+												<div class="star_content">
+													<a href="#">
+														<div class="star_bg">
+															<div class="star_rating" style="width: 73.7919807434082%;">
+															</div>
+														</div>
+													</a>
+												</div>
+												<div class="price_container">
+													<button class="price_button_movie">
+														<span>2,100</span>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="card">
+									<div class="card_content">
+										<a class="card_target" href="#"></a>
+										<div class="thumnail">
+											<a class="card_target" href="#"></a>
+											<div class="thumnail_holder">
+												<span class="thumnail_content">
+												<img class="thumnail_image" src="https://lh5.ggpht.com/QEJTcvzEJwxib1bczgpBTcUW0CabfOZxFB-lCBfjGcSWqYfMjb9pxX67hdppLkbXqv8R=w170-rw" alt="어바웃 타임" />
+											</span>
+											</div>
+										</div>
+										<div class="details">
+											<a class="card_target" href="#"></a>
+											<h2>
+											<a class="title" href="#">어바웃 타임</a>
+										</h2>
+											<div class="subtitle_container">
+												<a class="subtitle" href="#">멜로</a>
+											</div>
+										</div>
+
+										<div class="star_and_price">
+											<a class="card_target" href="#"></a>
+											<div class="star_price_container">
+												<div class="star_content">
+													<a href="#">
+														<div class="star_bg">
+															<div class="star_rating" style="width: 73.7919807434082%;">
+															</div>
+														</div>
+													</a>
+												</div>
+												<div class="price_container">
+													<button class="price_button_movie">
+														<span>2,100</span>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="card">
+									<div class="card_content">
+										<a class="card_target" href="#"></a>
+										<div class="thumnail">
+											<a class="card_target" href="#"></a>
+											<div class="thumnail_holder">
+												<span class="thumnail_content">
+												<img class="thumnail_image" src="https://lh5.ggpht.com/QEJTcvzEJwxib1bczgpBTcUW0CabfOZxFB-lCBfjGcSWqYfMjb9pxX67hdppLkbXqv8R=w170-rw" alt="어바웃 타임" />
+											</span>
+											</div>
+										</div>
+										<div class="details">
+											<a class="card_target" href="#"></a>
+											<h2>
+											<a class="title" href="#">어바웃 타임</a>
+										</h2>
+											<div class="subtitle_container">
+												<a class="subtitle" href="#">멜로</a>
+											</div>
+										</div>
+
+										<div class="star_and_price">
+											<a class="card_target" href="#"></a>
+											<div class="star_price_container">
+												<div class="star_content">
+													<a href="#">
+														<div class="star_bg">
+															<div class="star_rating" style="width: 73.7919807434082%;">
+															</div>
+														</div>
+													</a>
+												</div>
+												<div class="price_container">
+													<button class="price_button_movie">
+														<span>2,100</span>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="card">
+									<div class="card_content">
+										<a class="card_target" href="#"></a>
+										<div class="thumnail">
+											<a class="card_target" href="#"></a>
+											<div class="thumnail_holder">
+												<span class="thumnail_content">
+												<img class="thumnail_image" src="https://lh5.ggpht.com/QEJTcvzEJwxib1bczgpBTcUW0CabfOZxFB-lCBfjGcSWqYfMjb9pxX67hdppLkbXqv8R=w170-rw" alt="어바웃 타임" />
+											</span>
+											</div>
+										</div>
+										<div class="details">
+											<a class="card_target" href="#"></a>
+											<h2>
+											<a class="title" href="#">어바웃 타임</a>
+										</h2>
+											<div class="subtitle_container">
+												<a class="subtitle" href="#">멜로</a>
+											</div>
+										</div>
+
+										<div class="star_and_price">
+											<a class="card_target" href="#"></a>
+											<div class="star_price_container">
+												<div class="star_content">
+													<a href="#">
+														<div class="star_bg">
+															<div class="star_rating" style="width: 73.7919807434082%;">
+															</div>
+														</div>
+													</a>
+												</div>
+												<div class="price_container">
+													<button class="price_button_movie">
+														<span>2,100</span>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="card">
+									<div class="card_content">
+										<a class="card_target" href="#"></a>
+										<div class="thumnail">
+											<a class="card_target" href="#"></a>
+											<div class="thumnail_holder">
+												<span class="thumnail_content">
+												<img class="thumnail_image" src="https://lh5.ggpht.com/QEJTcvzEJwxib1bczgpBTcUW0CabfOZxFB-lCBfjGcSWqYfMjb9pxX67hdppLkbXqv8R=w170-rw" alt="어바웃 타임" />
+											</span>
+											</div>
+										</div>
+										<div class="details">
+											<a class="card_target" href="#"></a>
+											<h2>
+											<a class="title" href="#">어바웃 타임</a>
+										</h2>
+											<div class="subtitle_container">
+												<a class="subtitle" href="#">멜로</a>
+											</div>
+										</div>
+
+										<div class="star_and_price">
+											<a class="card_target" href="#"></a>
+											<div class="star_price_container">
+												<div class="star_content">
+													<a href="#">
+														<div class="star_bg">
+															<div class="star_rating" style="width: 73.7919807434082%;">
+															</div>
+														</div>
+													</a>
+												</div>
+												<div class="price_container">
+													<button class="price_button_movie">
+														<span>2,100</span>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="card">
+									<div class="card_content">
+										<a class="card_target" href="#"></a>
+										<div class="thumnail">
+											<a class="card_target" href="#"></a>
+											<div class="thumnail_holder">
+												<span class="thumnail_content">
+												<img class="thumnail_image" src="https://lh5.ggpht.com/QEJTcvzEJwxib1bczgpBTcUW0CabfOZxFB-lCBfjGcSWqYfMjb9pxX67hdppLkbXqv8R=w170-rw" alt="어바웃 타임" />
+											</span>
+											</div>
+										</div>
+										<div class="details">
+											<a class="card_target" href="#"></a>
+											<h2>
+											<a class="title" href="#">어바웃 타임</a>
+										</h2>
+											<div class="subtitle_container">
+												<a class="subtitle" href="#">멜로</a>
+											</div>
+										</div>
+
+										<div class="star_and_price">
+											<a class="card_target" href="#"></a>
+											<div class="star_price_container">
+												<div class="star_content">
+													<a href="#">
+														<div class="star_bg">
+															<div class="star_rating" style="width: 73.7919807434082%;">
+															</div>
+														</div>
+													</a>
+												</div>
+												<div class="price_container">
+													<button class="price_button_movie">
+														<span>2,100</span>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="card">
+									<div class="card_content">
+										<a class="card_target" href="#"></a>
+										<div class="thumnail">
+											<a class="card_target" href="#"></a>
+											<div class="thumnail_holder">
+												<span class="thumnail_content">
+												<img class="thumnail_image" src="https://lh5.ggpht.com/QEJTcvzEJwxib1bczgpBTcUW0CabfOZxFB-lCBfjGcSWqYfMjb9pxX67hdppLkbXqv8R=w170-rw" alt="어바웃 타임" />
+											</span>
+											</div>
+										</div>
+										<div class="details">
+											<a class="card_target" href="#"></a>
+											<h2>
+											<a class="title" href="#">어바웃 타임</a>
+										</h2>
+											<div class="subtitle_container">
+												<a class="subtitle" href="#">멜로</a>
+											</div>
+										</div>
+
+										<div class="star_and_price">
+											<a class="card_target" href="#"></a>
+											<div class="star_price_container">
+												<div class="star_content">
+													<a href="#">
+														<div class="star_bg">
+															<div class="star_rating" style="width: 73.7919807434082%;">
+															</div>
+														</div>
+													</a>
+												</div>
+												<div class="price_container">
+													<button class="price_button_movie">
+														<span>2,100</span>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="card">
+									<div class="card_content">
+										<a class="card_target" href="#"></a>
+										<div class="thumnail">
+											<a class="card_target" href="#"></a>
+											<div class="thumnail_holder">
+												<span class="thumnail_content">
+												<img class="thumnail_image" src="https://lh5.ggpht.com/QEJTcvzEJwxib1bczgpBTcUW0CabfOZxFB-lCBfjGcSWqYfMjb9pxX67hdppLkbXqv8R=w170-rw" alt="어바웃 타임" />
+											</span>
+											</div>
+										</div>
+										<div class="details">
+											<a class="card_target" href="#"></a>
+											<h2>
+											<a class="title" href="#">어바웃 타임</a>
+										</h2>
+											<div class="subtitle_container">
+												<a class="subtitle" href="#">멜로</a>
+											</div>
+										</div>
+
+										<div class="star_and_price">
+											<a class="card_target" href="#"></a>
+											<div class="star_price_container">
+												<div class="star_content">
+													<a href="#">
+														<div class="star_bg">
+															<div class="star_rating" style="width: 73.7919807434082%;">
+															</div>
+														</div>
+													</a>
+												</div>
+												<div class="price_container">
+													<button class="price_button_movie">
+														<span>2,100</span>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="card">
+									<div class="card_content">
+										<a class="card_target" href="#"></a>
+										<div class="thumnail">
+											<a class="card_target" href="#"></a>
+											<div class="thumnail_holder">
+												<span class="thumnail_content">
+												<img class="thumnail_image" src="https://lh5.ggpht.com/QEJTcvzEJwxib1bczgpBTcUW0CabfOZxFB-lCBfjGcSWqYfMjb9pxX67hdppLkbXqv8R=w170-rw" alt="어바웃 타임" />
+											</span>
+											</div>
+										</div>
+										<div class="details">
+											<a class="card_target" href="#"></a>
+											<h2>
+											<a class="title" href="#">어바웃 타임</a>
+										</h2>
+											<div class="subtitle_container">
+												<a class="subtitle" href="#">멜로</a>
+											</div>
+										</div>
+
+										<div class="star_and_price">
+											<a class="card_target" href="#"></a>
+											<div class="star_price_container">
+												<div class="star_content">
+													<a href="#">
+														<div class="star_bg">
+															<div class="star_rating" style="width: 73.7919807434082%;">
+															</div>
+														</div>
+													</a>
+												</div>
+												<div class="price_container">
+													<button class="price_button_movie">
+														<span>2,100</span>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="card">
+									<div class="card_content">
+										<a class="card_target" href="#"></a>
+										<div class="thumnail">
+											<a class="card_target" href="#"></a>
+											<div class="thumnail_holder">
+												<span class="thumnail_content">
+												<img class="thumnail_image" src="https://lh5.ggpht.com/QEJTcvzEJwxib1bczgpBTcUW0CabfOZxFB-lCBfjGcSWqYfMjb9pxX67hdppLkbXqv8R=w170-rw" alt="어바웃 타임" />
+											</span>
+											</div>
+										</div>
+										<div class="details">
+											<a class="card_target" href="#"></a>
+											<h2>
+											<a class="title" href="#">어바웃 타임</a>
+										</h2>
+											<div class="subtitle_container">
+												<a class="subtitle" href="#">멜로</a>
+											</div>
+										</div>
+
+										<div class="star_and_price">
+											<a class="card_target" href="#"></a>
+											<div class="star_price_container">
+												<div class="star_content">
+													<a href="#">
+														<div class="star_bg">
+															<div class="star_rating" style="width: 73.7919807434082%;">
+															</div>
+														</div>
+													</a>
+												</div>
+												<div class="price_container">
+													<button class="price_button_movie">
+														<span>2,100</span>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+
+
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="set_container">
 					<div class="square_cover_app_set_has_bg">
 						<h1 class="set_title">
-						<a class = "title" href="#">7월을 뜨겁게 달군 게임 20선</a>
+						<a class = "title" href="#">8월을 뜨겁게 달군 게임 20선</a>
 						<a class = "more_button_app" href="#" >더보기</a>
 						<a class = "subtitle" href="#">한 달동안 많은 사랑을 받은 게임</a>
 					</h1>
@@ -174,8 +648,8 @@ lang="ko" xml:lang="ko">
 							<span class="set_img_container"><img class="set_image" src='https://lh6.ggpht.com/6KdLT5fEBKh_dYuyQ5pnnOD3NH9kgRkNjltLN7MkOPUBQbswnM8f7_qWnC25XzYAAQP-=h556-rw'alt="" /></span>
 							<a class="card_target" href="set_bg"></a>
 						</div>
-						<div class="card_set">
-							<ul class="app_card_list">
+						<div class="card_set" >
+							<ul class="app_card_list" id = "swipable">
 								<li class="empty_card">
 									<a href="#">
 										<div class="empty_card_content"></div>
@@ -1286,389 +1760,7 @@ lang="ko" xml:lang="ko">
 						</div>
 					</div>
 				</div>
-				<div class="set_container">
-					<div class="square_cover_movie_set">
-						<h1 class="set_title">
-						<a class = "title" href="#">여름 메가 세일: 영화</a>
-						<a class = "more_button_movie" href="#" >더보기</a>
-						<a class = "subtitle" href="#">다양한 장르 최고 50%까지 할인</a>
-					</h1>
-						<div class="card_set">
-							<ul class="movie_card_list">
-								<li class="card">
-									<div class="card_content">
-										<a class="card_target" href="#"></a>
-										<div class="thumnail">
-											<a class="card_target" href="#"></a>
-											<div class="thumnail_holder">
-												<span class="thumnail_content">
-												<img class="thumnail_image" src="https://lh5.ggpht.com/QEJTcvzEJwxib1bczgpBTcUW0CabfOZxFB-lCBfjGcSWqYfMjb9pxX67hdppLkbXqv8R=w170-rw" alt="어바웃 타임" />
-											</span>
-											</div>
-										</div>
-										<div class="details">
-											<a class="card_target" href="#"></a>
-											<h2>
-											<a class="title" href="#">어바웃 타임</a>
-										</h2>
-											<div class="subtitle_container">
-												<a class="subtitle" href="#">멜로</a>
-											</div>
-										</div>
-
-										<div class="star_and_price">
-											<a class="card_target" href="#"></a>
-											<div class="star_price_container">
-												<div class="star_content">
-													<a href="#">
-														<div class="star_bg">
-															<div class="star_rating" style="width: 73.7919807434082%;">
-															</div>
-														</div>
-													</a>
-												</div>
-												<div class="price_container">
-													<button class="price_button_movie">
-														<span>2,100</span>
-													</button>
-												</div>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li class="card">
-									<div class="card_content">
-										<a class="card_target" href="#"></a>
-										<div class="thumnail">
-											<a class="card_target" href="#"></a>
-											<div class="thumnail_holder">
-												<span class="thumnail_content">
-												<img class="thumnail_image" src="https://lh5.ggpht.com/QEJTcvzEJwxib1bczgpBTcUW0CabfOZxFB-lCBfjGcSWqYfMjb9pxX67hdppLkbXqv8R=w170-rw" alt="어바웃 타임" />
-											</span>
-											</div>
-										</div>
-										<div class="details">
-											<a class="card_target" href="#"></a>
-											<h2>
-											<a class="title" href="#">어바웃 타임</a>
-										</h2>
-											<div class="subtitle_container">
-												<a class="subtitle" href="#">멜로</a>
-											</div>
-										</div>
-
-										<div class="star_and_price">
-											<a class="card_target" href="#"></a>
-											<div class="star_price_container">
-												<div class="star_content">
-													<a href="#">
-														<div class="star_bg">
-															<div class="star_rating" style="width: 73.7919807434082%;">
-															</div>
-														</div>
-													</a>
-												</div>
-												<div class="price_container">
-													<button class="price_button_movie">
-														<span>2,100</span>
-													</button>
-												</div>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li class="card">
-									<div class="card_content">
-										<a class="card_target" href="#"></a>
-										<div class="thumnail">
-											<a class="card_target" href="#"></a>
-											<div class="thumnail_holder">
-												<span class="thumnail_content">
-												<img class="thumnail_image" src="https://lh5.ggpht.com/QEJTcvzEJwxib1bczgpBTcUW0CabfOZxFB-lCBfjGcSWqYfMjb9pxX67hdppLkbXqv8R=w170-rw" alt="어바웃 타임" />
-											</span>
-											</div>
-										</div>
-										<div class="details">
-											<a class="card_target" href="#"></a>
-											<h2>
-											<a class="title" href="#">어바웃 타임</a>
-										</h2>
-											<div class="subtitle_container">
-												<a class="subtitle" href="#">멜로</a>
-											</div>
-										</div>
-
-										<div class="star_and_price">
-											<a class="card_target" href="#"></a>
-											<div class="star_price_container">
-												<div class="star_content">
-													<a href="#">
-														<div class="star_bg">
-															<div class="star_rating" style="width: 73.7919807434082%;">
-															</div>
-														</div>
-													</a>
-												</div>
-												<div class="price_container">
-													<button class="price_button_movie">
-														<span>2,100</span>
-													</button>
-												</div>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li class="card">
-									<div class="card_content">
-										<a class="card_target" href="#"></a>
-										<div class="thumnail">
-											<a class="card_target" href="#"></a>
-											<div class="thumnail_holder">
-												<span class="thumnail_content">
-												<img class="thumnail_image" src="https://lh5.ggpht.com/QEJTcvzEJwxib1bczgpBTcUW0CabfOZxFB-lCBfjGcSWqYfMjb9pxX67hdppLkbXqv8R=w170-rw" alt="어바웃 타임" />
-											</span>
-											</div>
-										</div>
-										<div class="details">
-											<a class="card_target" href="#"></a>
-											<h2>
-											<a class="title" href="#">어바웃 타임</a>
-										</h2>
-											<div class="subtitle_container">
-												<a class="subtitle" href="#">멜로</a>
-											</div>
-										</div>
-
-										<div class="star_and_price">
-											<a class="card_target" href="#"></a>
-											<div class="star_price_container">
-												<div class="star_content">
-													<a href="#">
-														<div class="star_bg">
-															<div class="star_rating" style="width: 73.7919807434082%;">
-															</div>
-														</div>
-													</a>
-												</div>
-												<div class="price_container">
-													<button class="price_button_movie">
-														<span>2,100</span>
-													</button>
-												</div>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li class="card">
-									<div class="card_content">
-										<a class="card_target" href="#"></a>
-										<div class="thumnail">
-											<a class="card_target" href="#"></a>
-											<div class="thumnail_holder">
-												<span class="thumnail_content">
-												<img class="thumnail_image" src="https://lh5.ggpht.com/QEJTcvzEJwxib1bczgpBTcUW0CabfOZxFB-lCBfjGcSWqYfMjb9pxX67hdppLkbXqv8R=w170-rw" alt="어바웃 타임" />
-											</span>
-											</div>
-										</div>
-										<div class="details">
-											<a class="card_target" href="#"></a>
-											<h2>
-											<a class="title" href="#">어바웃 타임</a>
-										</h2>
-											<div class="subtitle_container">
-												<a class="subtitle" href="#">멜로</a>
-											</div>
-										</div>
-
-										<div class="star_and_price">
-											<a class="card_target" href="#"></a>
-											<div class="star_price_container">
-												<div class="star_content">
-													<a href="#">
-														<div class="star_bg">
-															<div class="star_rating" style="width: 73.7919807434082%;">
-															</div>
-														</div>
-													</a>
-												</div>
-												<div class="price_container">
-													<button class="price_button_movie">
-														<span>2,100</span>
-													</button>
-												</div>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li class="card">
-									<div class="card_content">
-										<a class="card_target" href="#"></a>
-										<div class="thumnail">
-											<a class="card_target" href="#"></a>
-											<div class="thumnail_holder">
-												<span class="thumnail_content">
-												<img class="thumnail_image" src="https://lh5.ggpht.com/QEJTcvzEJwxib1bczgpBTcUW0CabfOZxFB-lCBfjGcSWqYfMjb9pxX67hdppLkbXqv8R=w170-rw" alt="어바웃 타임" />
-											</span>
-											</div>
-										</div>
-										<div class="details">
-											<a class="card_target" href="#"></a>
-											<h2>
-											<a class="title" href="#">어바웃 타임</a>
-										</h2>
-											<div class="subtitle_container">
-												<a class="subtitle" href="#">멜로</a>
-											</div>
-										</div>
-
-										<div class="star_and_price">
-											<a class="card_target" href="#"></a>
-											<div class="star_price_container">
-												<div class="star_content">
-													<a href="#">
-														<div class="star_bg">
-															<div class="star_rating" style="width: 73.7919807434082%;">
-															</div>
-														</div>
-													</a>
-												</div>
-												<div class="price_container">
-													<button class="price_button_movie">
-														<span>2,100</span>
-													</button>
-												</div>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li class="card">
-									<div class="card_content">
-										<a class="card_target" href="#"></a>
-										<div class="thumnail">
-											<a class="card_target" href="#"></a>
-											<div class="thumnail_holder">
-												<span class="thumnail_content">
-												<img class="thumnail_image" src="https://lh5.ggpht.com/QEJTcvzEJwxib1bczgpBTcUW0CabfOZxFB-lCBfjGcSWqYfMjb9pxX67hdppLkbXqv8R=w170-rw" alt="어바웃 타임" />
-											</span>
-											</div>
-										</div>
-										<div class="details">
-											<a class="card_target" href="#"></a>
-											<h2>
-											<a class="title" href="#">어바웃 타임</a>
-										</h2>
-											<div class="subtitle_container">
-												<a class="subtitle" href="#">멜로</a>
-											</div>
-										</div>
-
-										<div class="star_and_price">
-											<a class="card_target" href="#"></a>
-											<div class="star_price_container">
-												<div class="star_content">
-													<a href="#">
-														<div class="star_bg">
-															<div class="star_rating" style="width: 73.7919807434082%;">
-															</div>
-														</div>
-													</a>
-												</div>
-												<div class="price_container">
-													<button class="price_button_movie">
-														<span>2,100</span>
-													</button>
-												</div>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li class="card">
-									<div class="card_content">
-										<a class="card_target" href="#"></a>
-										<div class="thumnail">
-											<a class="card_target" href="#"></a>
-											<div class="thumnail_holder">
-												<span class="thumnail_content">
-												<img class="thumnail_image" src="https://lh5.ggpht.com/QEJTcvzEJwxib1bczgpBTcUW0CabfOZxFB-lCBfjGcSWqYfMjb9pxX67hdppLkbXqv8R=w170-rw" alt="어바웃 타임" />
-											</span>
-											</div>
-										</div>
-										<div class="details">
-											<a class="card_target" href="#"></a>
-											<h2>
-											<a class="title" href="#">어바웃 타임</a>
-										</h2>
-											<div class="subtitle_container">
-												<a class="subtitle" href="#">멜로</a>
-											</div>
-										</div>
-
-										<div class="star_and_price">
-											<a class="card_target" href="#"></a>
-											<div class="star_price_container">
-												<div class="star_content">
-													<a href="#">
-														<div class="star_bg">
-															<div class="star_rating" style="width: 73.7919807434082%;">
-															</div>
-														</div>
-													</a>
-												</div>
-												<div class="price_container">
-													<button class="price_button_movie">
-														<span>2,100</span>
-													</button>
-												</div>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li class="card">
-									<div class="card_content">
-										<a class="card_target" href="#"></a>
-										<div class="thumnail">
-											<a class="card_target" href="#"></a>
-											<div class="thumnail_holder">
-												<span class="thumnail_content">
-												<img class="thumnail_image" src="https://lh5.ggpht.com/QEJTcvzEJwxib1bczgpBTcUW0CabfOZxFB-lCBfjGcSWqYfMjb9pxX67hdppLkbXqv8R=w170-rw" alt="어바웃 타임" />
-											</span>
-											</div>
-										</div>
-										<div class="details">
-											<a class="card_target" href="#"></a>
-											<h2>
-											<a class="title" href="#">어바웃 타임</a>
-										</h2>
-											<div class="subtitle_container">
-												<a class="subtitle" href="#">멜로</a>
-											</div>
-										</div>
-
-										<div class="star_and_price">
-											<a class="card_target" href="#"></a>
-											<div class="star_price_container">
-												<div class="star_content">
-													<a href="#">
-														<div class="star_bg">
-															<div class="star_rating" style="width: 73.7919807434082%;">
-															</div>
-														</div>
-													</a>
-												</div>
-												<div class="price_container">
-													<button class="price_button_movie">
-														<span>2,100</span>
-													</button>
-												</div>
-											</div>
-										</div>
-									</div>
-								</li>
-
-							</ul>
-						</div>
-					</div>
-				</div>
+				
 				<div class="set_container"></div>
 			</div>
 			<div class="browse-page"></div>
@@ -1705,6 +1797,10 @@ lang="ko" xml:lang="ko">
 				</div>
 			</footer>
 		</div>
+
+<script src ="template.js" type='text/javascript' charset="utf-8">
+</script>
+ <script src ="swipe.js" type='text/javascript' charset="utf-8"> </script>
 </body>
 
 </HTML>

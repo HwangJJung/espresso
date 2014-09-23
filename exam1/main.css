@@ -1,6 +1,13 @@
+* {
+    font-family: "Roboto",Arial,sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    color: #333;
+}
+
 header,
 body,
-h2 {
+h2, button {
     font-family: "Roboto",Arial,sans-serif;
     font-size: 13px;
     font-weight: 300;
@@ -49,7 +56,7 @@ header {
 .logo_image { display: inline-block }
 .logo_a { padding: 10px 30px 10px 30px }
 .logo_image {
-    background-image: url('file:./resources/play_logo_x2.png');
+    background-image: url('http://hwangjjung.com/exam1/resources/play_logo_x2.png');
     width: 183px;
     height: 40px;
     background-size: 183px 40px;
@@ -124,10 +131,11 @@ header {
     box-shadow: none;
     background: #4285f4;
 }
+
 #sb_btn_icon,
-.li_2 > a > div,
-.li_3 > a > div {
-    background-image: url('file:./resources/google_sprite.png');
+.li_2 > div,
+.li_3 > div {
+    background-image: url('http://hwangjjung.com/exam1/resources/google_sprite.png');
     background-size: 112px 1828px;
 }
 #sb_btn_icon {
@@ -154,13 +162,11 @@ header {
   #user_nav_bar > ul > li {
       float: right;
       text-align: center;
-  }
-   #user_nav_bar > ul > li > a {
        display: block;
        padding-left: 15px;
    }
-    #user_nav_bar > ul > li > a  div:hover { opacity: 1 }
-.li_1 > a {
+    #user_nav_bar > ul > li div:hover { opacity: 1 }
+.li_1 > div {
     margin-top: 3px;
     text-overflow: ellipsis;
     width: 60px;
@@ -171,28 +177,28 @@ header {
     font-family: Arial;
     text-align: right;
 }
-.li_1 > a:hover { text-decoration: underline }
-#user_nav_bar > ul > li > a div {
+.li_1 > div:hover { text-decoration: underline }
+#user_nav_bar > ul > li > div {
     height: 30px;
     width: 30px;
 }
-#user_nav_bar > ul > .li_1 > a > div {
+#user_nav_bar > ul > .li_1  > div {
     text-align: right;
     width: 100%;
 }
-.li_2 > a > div,
-.li_3 > a > div { opacity: 0.50 }
-.li_2 > a > div { background-position: -51px -452px }
-.li_3 > a > div { background-position: 0 -69px }
-#user_nav_bar > ul > .li_4 > a > div {
+.li_2 > div,
+.li_3 > div { opacity: 0.50 }
+.li_2 > div { background-position: -51px -452px }
+.li_3 > div { background-position: 0 -69px }
+#user_nav_bar > ul > .li_4 > div {
     width: 60px;
     background-color: #E3E3E3;
     line-height: 30px;
     text-align: center;
     vertical-align: middle;
 }
-#user_nav_bar > ul > .li_4 > a > div:hover { background-color: #D1D1D1 }
-.li_5 > a > div {
+#user_nav_bar > ul > .li_4 > div:hover { background-color: #D1D1D1 }
+.li_5 > div {
     background-image: url('http://lh6.googleusercontent.com/-MbOdjoNn5Ks/AAAAAAAAAAI/AAAAAAAAAAA/8Gufh7esFnQ/s32-c/photo.jpg');
     background-size: 32px 32px;
     border-radius: 50%;
@@ -200,6 +206,58 @@ header {
     height: 32px;
     width: 32px;
 }
+
+#google_menu {
+    width: 300px;
+    height: 350px;
+    background-color: #333;
+    position: absolute;
+    z-index: 1200;
+    right: 50px;
+}
+
+#google_icn_container {
+    position: relative;
+    width: 270px;
+    height: 330px;
+    margin: 10px 15px 10px 15px;
+    background-color: #fff;
+
+}
+
+#google_ul {
+    overflow-x: hidden;
+}
+
+.google_icn_li {
+    width: 89px;
+    height: 109px;
+    background-color: #c0ffee;
+    float: left;
+    margin: 1px 0px 0px 1px;
+    
+}
+
+.google_icn_li:nth-child(2n) {
+    background-color: #E17463;
+}
+
+.google_icn_li > div:hover {
+    border: 1px solid rgba(0,0,0,0.17);
+    border-radius: 2px;
+}
+
+.google_icn_li > div {
+    font-size: 60px;
+    text-align: center;
+    width: 87px;
+    height: 107px;
+    background: transparent;
+    border: 1px solid rgba(0,0,0,0.0);
+    border-radius: 1px;
+}
+
+
 #action_bar {
     background-color: #fff;
     height: 48px;
@@ -209,12 +267,57 @@ header {
     box-shadow: 0 1px 0 rgba(0,0,0,0.05);
     z-index: 900;
 }
+
+#text_btn_container {
+    display: inline-block;
+    position: absolute;
+    left : 220px;
+    height: 100%;
+}
+
+#text_btn_container div button{
+    height: 48px;
+    float: left;
+    line-height: 48px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0 20px;
+    background-color: #fff;
+}
+#text_btn_container div {
+
+    background-color: #fff;
+}
+
+#text_btn_container div :hover {
+    background-color: #ddd;
+}
+
+#drop_down_menu {
+    position: absolute;
+    left: 230px;
+    top: 50px;
+    overflow-y: scroll;
+    width: 200px;
+    height: 300px;
+    border-radius: 2px;
+    box-shadow: 0 5px 6px rgba(0,0,0,0.1);
+    background-color: #fff;
+    z-index: 940;
+}
+
+#drop_down_menu li {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
 #ab_btn_container {
     display: inline-block;
     position: absolute;
     right: 30px;
     height: 100%;
     width: 375px;
+ 
 }
  #ab_btn_container > div {
      height: 48px;
@@ -251,8 +354,8 @@ header {
     vertical-align: top;
     width: 21px;
 }
-.ab_btn_1 { background-image: url('file:./resources/question_mark.png') }
-.ab_btn_2 { background-image: url('file:./resources/setting.png') }
+.ab_btn_1 { background-image: url('http://hwangjjung.com/exam1/resources/question_mark.png') }
+.ab_btn_2 { background-image: url('http://hwangjjung.com/exam1/resources/setting.png') }
 #wrapper {
     background-color: #e5e5e5;
     height: 100%;
@@ -304,19 +407,22 @@ header {
     color: #fff;
     transition: all .2s;
 }
-#nav_icon_store > span { background-image: url('file:./resources/store.png') }
+#nav_category_store {
+    color: #fff;
+}
+#nav_icon_store > span { background-image: url('http://hwangjjung.com/exam1/resources/store.png') }
 #nav_store { background-color: rgb(68, 68, 68) }
  #nav_store > a { color: #fff }
-#nav_icon_app > span { background-image: url('file:./resources/android.png') }
+#nav_icon_app > span { background-image: url('http://hwangjjung.com/exam1/resources/android.png') }
 #nav_icon_app { background-color: rgb(179, 200, 51) }
 #nav_category_app:hover { background-color: rgb(179, 200, 51) }
-#nav_icon_movie > span { background-image: url('file:./resources/movie.png') }
+#nav_icon_movie > span { background-image: url('http://hwangjjung.com/exam1/resources/movie.png') }
 #nav_icon_movie { background-color: #ce5043 }
 #nav_category_movie:hover { background-color: #ce5043 }
-#nav_icon_book > span { background-image: url('file:./resources/book.png') }
+#nav_icon_book > span { background-image: url('http://hwangjjung.com/exam1/resources/book.png') }
 #nav_icon_book { background-color: #1aa1e1 }
 #nav_category_book:hover { background-color: #1aa1e1 }
-#nav_icon_device > span { background-image: url('file:./resources/device.png') }
+#nav_icon_device > span { background-image: url('http://hwangjjung.com/exam1/resources/device.png') }
 #nav_icon_device { background-color: #658092 }
 #nav_category_device:hover { background-color: #658092 }
 .sub_nav {
@@ -346,6 +452,8 @@ header {
        background-color: #D5D5D5;
        transition: all .2s;
    }
+
+
 #body_container {
     position: relative;
     float: right;
@@ -451,7 +559,7 @@ header {
 }
 h1.set_title {
     overflow: hidden;
-    display: relative;
+    position: relative;
     min-height: 37px;
     min-width: 680px;
     margin: 0px 50px 0px 248px;
@@ -495,13 +603,14 @@ h1.set_title {
     min-width: 680px;
     position: relative;
     margin-left: 248px;
+    overflow: hidden;
 }
 .square_cover_app_set_has_bg .card_set { margin: 17px 15px 21px 248px }
 .card_set .app_card_list { height: 255px }
 .card_set .movie_card_list { height: 340px }
 .card_set > ul {
     overflow: hidden;
-    height: 100%;
+    height: 340px;
 }
 .card_set > .app_card_list > li {
     height: 245px;
@@ -565,6 +674,7 @@ h1.set_title {
     max-width: 80%;
     text-align: center;
     vertical-align: middle;
+    images
 }
 .movie_card_list .thumnail_image {
     max-height: 257px;
@@ -576,6 +686,7 @@ h1.set_title {
     transition: all .25s ease;
     border-radius: 2px;
 }
+
 .card .details {
     box-sizing: border-box;
     display: block;
@@ -634,13 +745,13 @@ h1.set_title {
     margin-top: 5px;
 }
 .card .star_bg {
-    background: url(file:./resources/star.png);
+    background: url(http://hwangjjung.com/exam1/resources/star.png);
     height: 14px;
     width: 69px;
     position: relative;
 }
 .card .star_rating {
-    background: url(file:./resources/star_rating.png);
+    background: url(http://hwangjjung.com/exam1/resources/star_rating.png);
     height: 14px;
     position: absolute;
 }
@@ -747,14 +858,14 @@ footer {
     }
     .menu_icon,
     .search_icon,
-    .play_logo,
+    .logo_image,
     .set_img_container {
         background-size: contain;
         background-repeat: no-repeat;
     }
-    .menu_icon { background-image: url('file:./resources/mobile/hamburger.png') }
-    .search_icon { background-image: url('file:./resources/mobile/searchicon.png') }
-    .play_logo {
+    .menu_icon { background-image: url('http://hwangjjung.com/exam1/resources/mobile/hamburger.png') }
+    .search_icon { background-image: url('http://hwangjjung.com/exam1/resources/mobile/searchicon.png') }
+    .logo_image {
         display: inline-block;
         height: 40px;
         width: 160px;
@@ -825,6 +936,24 @@ footer {
     html body { width: 108% }
     html .mobile { max-width: 0% }
     html #wrapper { min-width: 330px !important }
+    #movie_set_1 {
+        filter: chroma(color=#998899);
+        scrollbar-face-color:#998899; 
+        scrollbar-highlight-color: #FF0000; 
+        scrollbar-shadow-color: #FF0000;
+        scrollbar-3dlight-color:#998899; 
+        scrollbar-track-color:#998899; 
+        scrollbar-arrow-color: #FF0000;
+        scrollbar-darkshadow-color:#998899;
+    }
+    #movie_set_1::-webkit-scrollbar {
+        
+        height: 0px;
+    }
+    #movie_set_1::-webkit-scrollbar-thumb {
+        background: rgba(0,0,0,0.0) !important;
+    }
+
 }
 @media screen and (max-width: 459px) and (min-width: 340px) { 
     header,
@@ -881,14 +1010,14 @@ footer {
     }
     .menu_icon,
     .search_icon,
-    .play_logo,
+    .logo_image,
     .set_img_container {
         background-size: contain;
         background-repeat: no-repeat;
     }
-    .menu_icon { background-image: url('file:./resources/mobile/hamburger.png') }
-    .search_icon { background-image: url('file:./resources/mobile/searchicon.png') }
-    .play_logo {
+    .menu_icon { background-image: url('http://hwangjjung.com/exam1/resources/mobile/hamburger.png') }
+    .search_icon { background-image: url('http://hwangjjung.com/exam1/resources/mobile/searchicon.png') }
+    .logo_image {
         display: inline-block;
         height: 40px;
         width: 160px;
@@ -957,6 +1086,24 @@ footer {
      }
     .sub_footer { margin-left: 10px }
     #wrapper { min-width: 340px }
+     #movie_set_1 {
+        filter: chroma(color=#998899);
+        scrollbar-face-color:#998899; 
+        scrollbar-highlight-color: #FF0000; 
+        scrollbar-shadow-color: #FF0000;
+        scrollbar-3dlight-color:#998899; 
+        scrollbar-track-color:#998899; 
+        scrollbar-arrow-color: #FF0000;
+        scrollbar-darkshadow-color:#998899;
+    }
+    #movie_set_1::-webkit-scrollbar {
+        
+        height: 0px;
+    }
+    #movie_set_1::-webkit-scrollbar-thumb {
+        background: rgba(0,0,0,0.0) !important;
+    }
+
 }
 @media screen and (max-width: 959px) and (min-width: 460px) { 
     header,
@@ -1013,14 +1160,14 @@ footer {
     }
     .menu_icon,
     .search_icon,
-    .play_logo,
+    .logo_image,
     .set_img_container {
         background-size: contain;
         background-repeat: no-repeat;
     }
-    .menu_icon { background-image: url('file:./resources/mobile/hamburger.png') }
-    .search_icon { background-image: url('file:./resources/mobile/searchicon.png') }
-    .play_logo {
+    .menu_icon { background-image: url('http://hwangjjung.com/exam1/resources/mobile/hamburger.png') }
+    .search_icon { background-image: url('http://hwangjjung.com/exam1/resources/mobile/searchicon.png') }
+    .logo_image {
         display: inline-block;
         height: 40px;
         width: 160px;
@@ -1036,6 +1183,25 @@ footer {
         height: 255px;
         float: none;
     }
+    
+    #movie_set_1 {
+        filter: chroma(color=#998899);
+        scrollbar-face-color:#998899; 
+        scrollbar-highlight-color: #FF0000; 
+        scrollbar-shadow-color: #FF0000;
+        scrollbar-3dlight-color:#998899; 
+        scrollbar-track-color:#998899; 
+        scrollbar-arrow-color: #FF0000;
+        scrollbar-darkshadow-color:#998899;
+    }
+    #movie_set_1::-webkit-scrollbar {
+        
+        height: 0px;
+    }
+    #movie_set_1::-webkit-scrollbar-thumb {
+        background: rgba(0,0,0,0.0) !important;
+    }
+
     .browse_page >.set_container:first-child .set_image { margin-left: -18% }
     .browse_page >.set_container:first-child {
         margin-left: 0px;
@@ -1045,6 +1211,8 @@ footer {
         height: 330px;
         margin-bottom: 20px;
     }
+    
+    
     .set_bg .set_img_container {
         width: 100%;
         float: none;
@@ -1091,6 +1259,7 @@ footer {
     #wrapper { min-width: 460px }
     .browse_page >.set_container:first-child > .set_img_container > .set_image { margin-left: 0px }
 }
+
 @media screen and (min-width: 960px) { 
     #wrapper { min-width: 960px }
 }

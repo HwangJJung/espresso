@@ -1,0 +1,22 @@
+
+public class TimerOnCommand implements Command{
+
+	
+	Timer timer;
+	
+	//이안에 티켓발매 정보가 담겨야해.
+	public TimerOnCommand(Timer timer) {
+		this.timer = timer;
+		
+	}
+	
+	
+	
+	
+	@Override
+	public void execute() {
+		// TODO Auto-generated method stub
+		timer.On();
+	}
+
+}

@@ -1,0 +1,15 @@
+2014-09-26 17:09:25,655 [Worker-5] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /Users/jjungmac/JavaProject/FinalProjectPEJ/jjung/pom.xml
+2014-09-26 17:09:30,656 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: recover23:jjung:0.0.1-SNAPSHOT @ /Users/jjungmac/JavaProject/FinalProjectPEJ/jjung/pom.xml.
+2014-09-26 17:09:31,242 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: recover23:jjung:0.0.1-SNAPSHOT @ /Users/jjungmac/JavaProject/FinalProjectPEJ/jjung/pom.xml.
+2014-09-26 17:09:31,273 [Worker-5] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jjung/src/main/java
+2014-09-26 17:09:31,277 [Worker-5] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jjung/src/test/java
+2014-09-26 17:09:35,087 [Worker-5] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 9 sec
+2014-09-26 17:09:37,521 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: recover23:jjung:0.0.1-SNAPSHOT @ /Users/jjungmac/JavaProject/FinalProjectPEJ/jjung/pom.xml.
+2014-09-26 17:09:38,365 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-09-26 17:09:38,366 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jjungmac/JavaProject/FinalProjectPEJ/jjung/src/main/resources
+2014-09-26 17:09:38,369 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-09-26 17:09:38,369 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jjungmac/JavaProject/FinalProjectPEJ/jjung/src/test/resources
+2014-09-26 17:09:58,329 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-09-26 17:09:58,329 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jjungmac/JavaProject/FinalProjectPEJ/jjung/src/main/resources
+2014-09-26 17:09:58,331 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-09-26 17:09:58,331 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jjungmac/JavaProject/FinalProjectPEJ/jjung/src/test/resources

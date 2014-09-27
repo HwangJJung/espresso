@@ -1,0 +1,5 @@
+package commandForPEJ;
+
+public abstract class Station {
+	
+}

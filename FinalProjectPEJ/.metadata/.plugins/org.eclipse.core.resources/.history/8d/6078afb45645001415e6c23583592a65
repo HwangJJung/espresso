@@ -1,0 +1,5 @@
+package commandForPEJ;
+
+public class SeoulStation extends Station{
+
+}

@@ -1,0 +1,20 @@
+
+public class Clerk implements Observer {
+	
+	Station startStation;
+	int id;
+	Command slot;
+	
+	public Clerk() {}
+	
+	public void setCommand(Command command) {
+		slot = command;
+	}
+	
+	@Override
+	public void update(OrderObservable client) {
+		System.out.println("Clerk: " + client + "is comming");
+		slot.execute();
+	}
+
+}

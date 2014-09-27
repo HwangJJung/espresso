@@ -1,0 +1,8 @@
+package commandForPEJ;
+
+public interface Command {
+	public void execute();
+
+}
+
+

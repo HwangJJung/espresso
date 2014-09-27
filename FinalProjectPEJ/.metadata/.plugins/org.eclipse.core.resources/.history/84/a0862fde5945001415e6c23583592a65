@@ -1,0 +1,10 @@
+package command;
+
+import command.Station;
+
+public interface TicketComponentFactory {
+	
+	public Station SetStartStation();
+	public Station SetArrivalStation();
+	public Policy SetPolicy();
+}

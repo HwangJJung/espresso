@@ -1,0 +1,10 @@
+
+public class GooseAdapter implements Quackable {
+
+	@Override
+	public void quack() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

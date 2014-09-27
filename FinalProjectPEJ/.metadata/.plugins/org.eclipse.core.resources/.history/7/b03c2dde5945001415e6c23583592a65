@@ -1,0 +1,10 @@
+package command;
+
+public class AlphaPolicy extends Policy {
+
+	@Override
+	void Algorigm() {
+		System.out.println("Alpha Algorigm");
+	}
+
+}

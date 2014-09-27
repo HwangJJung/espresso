@@ -1,0 +1,15 @@
+<body>
+	<h1 id ="header">Click</h1>
+<script>
+	window.onload = function () {
+	var header = document.getElementById('header');
+
+	var handler() = function () {
+		this.style.color = 'red';
+		this.removeEventListener('click', handler);
+	};
+
+	header.addEventListener('click', handler);
+};
+</script>
+</body>

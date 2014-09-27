@@ -1,0 +1,11 @@
+2014-09-25 14:35:29,641 [Worker-11] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /Users/jjungmac/JavaProject/workspace/Bowling/pom.xml
+2014-09-25 14:35:35,886 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: START:Bowling:0.0.1-SNAPSHOT @ /Users/jjungmac/JavaProject/workspace/Bowling/pom.xml.
+2014-09-25 14:35:36,555 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: START:Bowling:0.0.1-SNAPSHOT @ /Users/jjungmac/JavaProject/workspace/Bowling/pom.xml.
+2014-09-25 14:35:37,004 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Bowling/src/main/java
+2014-09-25 14:35:37,007 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Bowling/src/test/java
+2014-09-25 14:35:45,615 [Worker-11] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 15 sec
+2014-09-25 14:35:50,702 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: START:Bowling:0.0.1-SNAPSHOT @ /Users/jjungmac/JavaProject/workspace/Bowling/pom.xml.
+2014-09-25 14:35:50,891 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-09-25 14:35:50,891 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jjungmac/JavaProject/workspace/Bowling/src/main/resources
+2014-09-25 14:35:50,894 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-09-25 14:35:50,894 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jjungmac/JavaProject/workspace/Bowling/src/test/resources

@@ -1,0 +1,27 @@
+<html>
+<head>
+<meta charset=utf-8 />
+<title>JS Bin</title>
+</head>
+<body>
+  <div id="wrap">
+    <ul>
+    	<li>뉴스</li>
+    	<li>카페</li>
+    	<li>블로그</li>
+    	<li>메일</li>
+    </ul>
+  </div>
+  
+  <script>
+  var newItem=document.createElement("LI");
+  newItem.textContent="쇼핑";
+  var list=document.getElementById("wrap").querySelector("ul");
+
+  list.insertBefore(newItem,list.childNodes[4]);
+</script>
+
+</body>
+</html>
+
+

@@ -14,8 +14,7 @@
 			a { text-decoration: none;}
 			img { border: 0;}
 		</style>
-		<link rel=”stylesheet” type=”text/css” href=”main.css” />
-
+		<link href='/Users/jjungmac/JavaProject/UI_week1_html/main.css' rel='stylesheet' type='text/css'>
 
 	</head>
 
@@ -67,17 +66,33 @@
 				<ul>
 					<li class = "ad_container">
 						<div>
-						<a href="#"><img src="http:placehold.it/800x300" alt="" /> </a>
+							<img src="http:placehold.it/900x300" alt="" />
 						</div>
 					</li>
 					<li class = "card_set_container">
 						<section class= "set_title">
 							<h1>재미보장 게임모음</h1>
 							<h2>업데이트 되었습니다!</h2>
+							<div class = "title_button">
 							<button>더보기</button>
+							</div>
 						</section>
 						<div class = "card_container">
 							<ul>
+								<li class = "card">
+									<a class = "card_select_area" href = "#">
+										<div class = "cover">
+												<div class = "thumnail">
+													<img src="http:placehold.it/100x100">
+												</div>
+										</div>
+										<div class = "description">
+											<strong>윤지수교수님</strong>
+											<p>사랑해요</p>
+										</div>
+									</a>
+
+								</li>
 								<li class = "card">
 									<a href = "#">
 										<div class = "thumnail">
@@ -339,7 +354,7 @@
 			<aside id = "main_side">
 				<section class="category_list">
 					<ul>
-						<li>
+						<li class= "c1">
 							<a href = "#">
 							<div class = "category_icon">
 								<img src="http:placehold.it/50x50">
@@ -349,7 +364,7 @@
 							</div>
 							</a>
 						</li>
-						<li>
+						<li class = "c2">
 							<a href = "#">
 							<div class = "category_icon">
 								<img src="http:placehold.it/50x50">
@@ -359,7 +374,7 @@
 							</div>
 							</a>
 						</li>
-						<li>
+						<li class = "c3">
 							<a href = "#">
 							<div class = "category_icon">
 								<img src="http:placehold.it/50x50">
@@ -369,7 +384,7 @@
 							</div>
 							</a>
 						</li>
-						<li>
+						<li class = "c4">
 							<a href = "#">
 							<div class = "category_icon">
 								<img src="http:placehold.it/50x50">
@@ -379,13 +394,13 @@
 							</div>
 							</a>
 						</li>
-						<li>
+						<li class = "c5">
 							<a href = "#">
 							<div class = "category_icon">
 								<img src="http:placehold.it/50x50">
 							</div>
 							<div class ="category_name">
-								<h3></h3>
+								<h3>게임</h3>
 							</div>
 							</a>
 						</li>
@@ -403,12 +418,13 @@
 			<footer>	
 				<div id = "footer_container">
 				<section id ="copyright_bar">
-					<p> @2014 google </p>
+					
 					<ul>
-						<a href="#"><li> 사이트 서비스 약관 </li></a>
-						<a href="#"><li> 기기 판매 약관 </li></a>
-						<a href="#"><li>  개인정보 취급 방침</li></a>
-						<a href="#"><li> 개발자  </li></a>
+						<li>@2014 google </li>
+						<li> <a href="#">사이트 서비스 약관 </a></li>
+						<li><a href="#"> 기기 판매 약관 </a></li>
+						<li><a href="#">  개인정보 취급 방침</a></li>
+						<li><a href="#"> 개발자  </a></li>
 						
 				</section>
 				<section id = "company_info">
@@ -421,6 +437,7 @@
 				</div>
 			</footer>	
 		</div>
+
 
 	</body>
 </HTML>

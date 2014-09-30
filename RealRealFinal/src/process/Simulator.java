@@ -1,0 +1,17 @@
+package process;
+
+
+import station.StationCollection;
+
+public class Simulator
+{
+  public static void main(String[] args)
+  {
+ 
+    StationCollection stationcollection = new StationCollection();
+    ClientSender clientsender = new ClientSender(stationcollection);
+    Thread th = new Thread(new ClientTimeChecker(clientsender));
+    th.start();
+  }
+  
+}

@@ -1,6 +1,0 @@
-package command;
-
-public abstract class policy {
-	
-	abstract void Algorigm();
-}

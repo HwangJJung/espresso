@@ -21,10 +21,10 @@ public class ClientTimeChecker implements Runnable {
 			} catch ( InterruptedException e) {}
 			System.out.println("1");
 		
-			Iterator<Client> it = clientQueue.getList().iterator();
+			Iterator<AbstractClient> it = clientQueue.getList().iterator();
 			while (it.hasNext()) {
 
-				Client client = it.next();
+				AbstractClient client = it.next();
 				
 				if(client.getArrivalTime() == currentTime) {
 					seoulQueue.add(client);

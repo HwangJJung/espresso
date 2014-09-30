@@ -1,8 +1,0 @@
-package command;
-
-public interface TicketComponentFactory {
-	
-	public Station SetStartStation();
-	public Station SetArrivalStation();
-	public Policy SetPolicy();
-}

@@ -1,0 +1,23 @@
+package process;
+
+import station.Station;
+import client.StationClientQueue;
+
+public class Simulator
+{
+  public static void main(String[] args)
+  {
+    Simulator simulator = new Simulator();
+    StationCollection stationcollection = new StationCollection();
+    ClientSender clientsender = new ClientSender(stationcollection);
+    Thread th = new Thread(new ClientTimeChecker(clientsender));
+    th.start();
+
+    simulator.simulate(stationcollection);
+  }
+
+  public void simulate(StationCollection stationcollection)
+  {
+    System.out.println("스레드펙토리에 넣기 전에는 큐가 엠티인가?  " + ((Station)stationcollection.getStationList().get(0)).stationQueue.isEmpty());
+  }
+}

@@ -1,5 +1,0 @@
-
-public interface Releaseable extends OrderObservable {
-	public void order();
-
-}

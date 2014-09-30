@@ -1,7 +1,0 @@
-package Factory;
-
-public class SeoulPoint implements Point {
-	
-	System.out.println("SEOUL STATION");
-
-}
